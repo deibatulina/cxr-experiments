@@ -1,0 +1,5 @@
+{
+  "best_epoch": 3,
+  "best_val_loss": 1.732969610837468,
+  "dataset": "iu_xray_fix"
+}

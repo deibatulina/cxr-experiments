@@ -1,0 +1,15 @@
+{
+  "model_name": "Salesforce/blip2-flan-t5-xl",
+  "seed": 42,
+  "num_epochs_by_experiment": {
+    "iu_xray_fine_tuned": 3,
+    "mimic_cxr_fine_tuned": 2
+  },
+  "learning_rate": 1e-05,
+  "weight_decay": 0.01,
+  "platform": {
+    "device": "mps",
+    "dtype": "torch.float16"
+  },
+  "dataset_sizes_loaded_in_session": {}
+}

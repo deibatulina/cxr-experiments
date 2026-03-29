@@ -1,0 +1,27 @@
+.env
+
+# OS / notebook / Python cache
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Archives
+*.zip
+
+# Trained model weights and checkpoints
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Fine-tuned model artifact directories
+results/**/best_model/
+results/**/last_model/
+experiments_light/results/**/best_model/
+experiments_light/results/**/last_model/
+
+# TensorBoard and training logs
+results/**/tensorboard/
+experiments_light/results/**/tensorboard/

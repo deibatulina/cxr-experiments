@@ -1,0 +1,2847 @@
+[
+  {
+    "index": 0,
+    "prediction": "chest x-ray of a patient with a large esophagus with pleural eff",
+    "reference": "1. Mild cardiomegaly. 2. Otherwise, no acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 1,
+    "prediction": "chest x-ray of a boy",
+    "reference": "1. Marked cardiomegaly. 2. Increased interstitial markings in the lower lungs, edema versus chronic interstitial changes."
+  },
+  {
+    "index": 2,
+    "prediction": "a x-ray of the left ribs showing a slight depression in the sternum",
+    "reference": "Heart size normal. Right lung clear. Persistent but decreased left lower lobe atelectasis infiltrate and effusion."
+  },
+  {
+    "index": 3,
+    "prediction": "chest x-ray showing a pulmonary mass",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 4,
+    "prediction": "chest x-ray with pleural effusion",
+    "reference": "Hyperinflated appearing lungs as before with some stable slightly prominent appearing interstitial markings most XXXX representing mild chronic inflammatory change. Stable biapical chronic inflammatory change with pleural thickening. No acute airspace disease, effusions, or CHF. Stable mediastinal contour. No XXXX acute abnormalities since the previous chest radiograph."
+  },
+  {
+    "index": 5,
+    "prediction": "chest x-ray, chest hysteria",
+    "reference": "Normal chest"
+  },
+  {
+    "index": 6,
+    "prediction": "chest x-ray with pneumonia",
+    "reference": "Heart size is normal. Lungs are clear. Minimal platelike atelectasis left base."
+  },
+  {
+    "index": 7,
+    "prediction": "atypically enlarged bilateral lungs and esophagus",
+    "reference": "Heart size is normal and lungs are clear."
+  },
+  {
+    "index": 8,
+    "prediction": "chest x-ray showing multiple lung masses",
+    "reference": "No active disease."
+  },
+  {
+    "index": 9,
+    "prediction": "chest x-ray with left pleura & sternal rim",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 10,
+    "prediction": "chest x-ray - upper lobe of lung, right and left ribs, and left inter",
+    "reference": "No active disease."
+  },
+  {
+    "index": 11,
+    "prediction": "x-ray of chest with normal results",
+    "reference": "No acute process."
+  },
+  {
+    "index": 12,
+    "prediction": "chest x-ray showing large mass on the right side",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 13,
+    "prediction": "pulmonary edema in a patient with no emphysema",
+    "reference": "No acute or active cardiac, pulmonary or pleural disease."
+  },
+  {
+    "index": 14,
+    "prediction": "pulmonary hypertension",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 15,
+    "prediction": "chest x ray of patient with cardiac murmur",
+    "reference": "Negative chest ."
+  },
+  {
+    "index": 16,
+    "prediction": "a patient with a lung cancer",
+    "reference": "1. Stable and adequately placed XXXX. 2. Prominent pulmonary vasculature, subpleural edema, and peribronchial cuffing suggestive of volume overload versus viral bronchiolitis."
+  },
+  {
+    "index": 17,
+    "prediction": "chest x-ray with lung and thoracic",
+    "reference": "Negative chest."
+  },
+  {
+    "index": 18,
+    "prediction": "chest x-ray showing a right apical mass",
+    "reference": "No acute cardiopulmonary process"
+  },
+  {
+    "index": 19,
+    "prediction": "chest x-ray of patient with left lobe hyperextension",
+    "reference": "Increasing prominence of the superior mediastinum may be secondary to enlarging thyroid mass. With increasing tortuosity of the thoracic aorta and concern for dissection, chest CT is recommended for further evaluation."
+  },
+  {
+    "index": 20,
+    "prediction": "opacities are prominent in the left axilla",
+    "reference": "1. Enlarged cardiac silhouette, possibly consistent with mild cardiomegaly versus a small pericardial effusion. 2. Mild bibasilar atelectasis and/or infiltrates with probable small bilateral pleural effusions, on the right greater than left, and pleural thickening versus loculated pleural fluid along the peripheral aspect of the right upper lobe. ."
+  },
+  {
+    "index": 21,
+    "prediction": "chest x-ray showing small right lobe with an enlarged sternum",
+    "reference": "No evidence of acute thoracic XXXX."
+  },
+  {
+    "index": 22,
+    "prediction": "chest x-ray of a patient with pneumonia",
+    "reference": "No evidence of acute cardiopulmonary process."
+  },
+  {
+    "index": 23,
+    "prediction": "chest x-ray showing a left lung with a hypertrophic shape",
+    "reference": "Calcified right basilar nodule compatible with granuloma / histoplasmoma. A few calcified right hilar lymph XXXX. Lungs overall well expanded and clear. Unremarkable mediastinal contour. No acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 24,
+    "prediction": "x-ray of patient with adenocarcinoma showing lung",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 25,
+    "prediction": "chest x-rays of an elderly male with pneumonia",
+    "reference": "No evidence of acute cardiopulmonary process."
+  },
+  {
+    "index": 26,
+    "prediction": "chest x-ray showing a normal rib and clavicle",
+    "reference": "1. No radiographic evidence of acute thoracic XXXX."
+  },
+  {
+    "index": 27,
+    "prediction": "chest x-ray of a male with chest",
+    "reference": "1. Minimal right basilar subsegmental atelectasis. Otherwise, no acute cardiopulmonary abnormality demonstrated. ."
+  },
+  {
+    "index": 28,
+    "prediction": "chest x-ray with pleural effusion",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 29,
+    "prediction": "chest x-ray of patient with pleural effusion",
+    "reference": "Negative for acute cardiopulmonary disease. No fractures identified."
+  },
+  {
+    "index": 30,
+    "prediction": "chest x-ray of patient with a hepatic mass and pleural effusion",
+    "reference": "1. No acute cardiopulmonary abnormality. 2. Subcutaneous emphysema of the neck, left lateral chest, and right lateral abdominal soft tissues noted. ."
+  },
+  {
+    "index": 31,
+    "prediction": "chest x-ray showing a right side view of the upper right chest",
+    "reference": "PA and lateral views of the chest show enlarging right hilar adenopathy. The lungs appear grossly clear. Heart size and pulmonary XXXX are normal. There is no pneumothorax. Pleural spaces are clear. There is mild thoracic spine degenerative change. FINDINGS COULD REPRESENT RESOLVING HISTOPLASMOSIS INFECTION, SARCOIDOSIS, OR MALIGNANCY XXXX AS LYMPHOMA OR PRIMARY LUNG CANCER. RECOMMEND CONTRAST-ENHANCED CHEST CT FOR FURTHER EVALUATION."
+  },
+  {
+    "index": 32,
+    "prediction": "x-ray of the left lung shows pleural effusion",
+    "reference": "1. No acute cardiopulmonary finding. 2. Mild to moderate T10 vertebral body anterior XXXX deformity, XXXX from XXXX. Slight interval increase in XXXX loss of T11. Unchanged severe L1 XXXX deformity. If further imaging characterization is needed, recommend MRI. Findings will be conveyed to the ordering physician XXXX the Primordial communication XXXX."
+  },
+  {
+    "index": 33,
+    "prediction": "chest x-ray showing pericardial effusion and pleural effusion",
+    "reference": "Stable cardiomegaly without gross evidence for failure or pneumonia."
+  },
+  {
+    "index": 34,
+    "prediction": "chest x-ray showing bilateral lung",
+    "reference": "No acute cardiopulmonary abnormalities. ."
+  },
+  {
+    "index": 35,
+    "prediction": "chest x-ray showing a large chest with small right lungs",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 36,
+    "prediction": "chest x ray of a male patient with pleuritis and pleural effusion",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 37,
+    "prediction": "thoracic wall flattened in the middle",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 38,
+    "prediction": "chest x-ray with a heart and lungs in the middle",
+    "reference": "Minimal left basilar atelectasis versus infiltrate. Low lung volumes."
+  },
+  {
+    "index": 39,
+    "prediction": "chest x-ray of a patient with pleural effusion",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 40,
+    "prediction": "chest x-ray",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 41,
+    "prediction": "chest x-ray with chest and upper arm thorax",
+    "reference": "Unremarkable examination of the chest."
+  },
+  {
+    "index": 42,
+    "prediction": "chest x-ray of a patient with an upper right lobe lesion",
+    "reference": "Left basilar airspace disease."
+  },
+  {
+    "index": 43,
+    "prediction": "hepatic revascularization is present",
+    "reference": "No acute process."
+  },
+  {
+    "index": 44,
+    "prediction": "chest x-ray of the patient with a lung",
+    "reference": "No acute cardiopulmonary findings. ."
+  },
+  {
+    "index": 45,
+    "prediction": "chest x-ray",
+    "reference": "No active disease."
+  },
+  {
+    "index": 46,
+    "prediction": "chest x-ray - pt with apnea",
+    "reference": "1. No focal airspace consolidation. 2. Emphysema. 3. Stable biapical opacities, possibly scarring."
+  },
+  {
+    "index": 47,
+    "prediction": "pylorus showing bilateral aortic arch in an infant",
+    "reference": "Heart size is normal. Lungs are clear. No evidence of tuberculosis."
+  },
+  {
+    "index": 48,
+    "prediction": "chest x-ray of a patient with pulmonary hypertension",
+    "reference": "1. No evidence of pneumothorax or pneumomediastinum. 2. Clear lungs."
+  },
+  {
+    "index": 49,
+    "prediction": "a right chest x-ray shows a hypertrophied left thoracic aorta",
+    "reference": "No acute abnormality."
+  },
+  {
+    "index": 50,
+    "prediction": "chest x-ray",
+    "reference": "No acute cardiopulmonary abnormality.."
+  },
+  {
+    "index": 51,
+    "prediction": "chest x-ray of patient with acute respiratory distress syndrome",
+    "reference": "No cardiopulmonary abnormality."
+  },
+  {
+    "index": 52,
+    "prediction": "chest x-ray showing a left rib and a right lung",
+    "reference": "1.Severe arthritic changes in both hips left worse than right. 2. Possible COPD but no acute pulmonary disease."
+  },
+  {
+    "index": 53,
+    "prediction": "chest x-ray of a patient with acute pneumonia",
+    "reference": "1. There is cardiomegaly. No pulmonary edema. Lungs symmetrically aerated and clear of infiltrate or consolidation. No pneumothorax or pleural effusion. S-shaped curvature thoracic spine noted. 2. Left upper quadrant peripherally calcified focus 3.8 XXXX XXXX splenic and origin and may represent benign cyst but is not XXXX to be further localized or characterized on XXXX film. Vascular aneurysm would be possible but thought less XXXX."
+  },
+  {
+    "index": 54,
+    "prediction": "chest x-ray showing bilateral lung displacement",
+    "reference": "1. Clear lungs."
+  },
+  {
+    "index": 55,
+    "prediction": "a normal chest x-ray with no esophageal, pleural or aor",
+    "reference": "1. No acute cardiopulmonary disease."
+  },
+  {
+    "index": 56,
+    "prediction": "pulmonary nodule in the left lung",
+    "reference": "Normal chest."
+  },
+  {
+    "index": 57,
+    "prediction": "chest x-ray of patient with a right upper lobe resection",
+    "reference": "Heart size is within normal limits. Coronary artery stent noted. No edema. No focal consolidation, pleural effusion or pneumothorax. Mild nonspecific biapical pleural thickening. Clips from prior cholecystectomy are noted."
+  },
+  {
+    "index": 58,
+    "prediction": "chest x-ray with right upper lobe in view",
+    "reference": "1. No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 59,
+    "prediction": "thoracic radiograph showing multiple lung lesions",
+    "reference": "No evidence of active disease."
+  },
+  {
+    "index": 60,
+    "prediction": "chest x-ray showing bilateral thoracic adenopathy",
+    "reference": "No acute cardiopulmonary abnormalities are seen. END OF REPORT."
+  },
+  {
+    "index": 61,
+    "prediction": "chest x-ray demonstrates pleural effusion in a man",
+    "reference": "No acute findings. Stable cardiac enlargement."
+  },
+  {
+    "index": 62,
+    "prediction": "chest x-ray",
+    "reference": "No acute cardiopulmonary abnormality.."
+  },
+  {
+    "index": 63,
+    "prediction": "chest x-ray reveals multiple cysts in the left lung",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 64,
+    "prediction": "chest x-ray with the upper right lobe",
+    "reference": "No evidence of acute cardiopulmonary process. Stable appearance of the chest."
+  },
+  {
+    "index": 65,
+    "prediction": "pleural effusion",
+    "reference": "Stable normal heart size. Calcified aorta. Eventration right diaphragm. Scarring in the pulmonary apices. No acute findings. Thoracic spondylosis."
+  },
+  {
+    "index": 66,
+    "prediction": "chest x-ray showing the ribs and chest",
+    "reference": "No acute cardiopulmonary findings"
+  },
+  {
+    "index": 67,
+    "prediction": "chest x-ray – thorax with ribs in front and below, chest wall enlarged",
+    "reference": "Negative chest. ."
+  },
+  {
+    "index": 68,
+    "prediction": "chest x-ray, spirometry, and aorta",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 69,
+    "prediction": "spirometry is normal",
+    "reference": "Bilateral large pleural effusion, possibly from pleuritis or sympathetic from the known pancreatitis."
+  },
+  {
+    "index": 70,
+    "prediction": "chest x-ray of the patient with suspected pleural effusion",
+    "reference": "No acute cardiopulmonary disease"
+  },
+  {
+    "index": 71,
+    "prediction": "chest x-ray demonstrating lung hypertrophy",
+    "reference": "1. No active cardiopulmonary disease. 2. Left humeral head is positioned anterior and inferior to the glenoid, concerning for anterior shoulder subluxation. This is XXXX related to the muscular dystrophy and decreased shoulder muscles support. 3. XXXX postoperative changes from the spinal XXXX placement."
+  },
+  {
+    "index": 72,
+    "prediction": "chest x-ray with chest wall abnormalities",
+    "reference": "No active disease."
+  },
+  {
+    "index": 73,
+    "prediction": "hepatic oedema is present",
+    "reference": "No active disease."
+  },
+  {
+    "index": 74,
+    "prediction": "pt with lung edema, increased tachycardia, enlarged lungs",
+    "reference": "Comparison XXXX, XXXX Hyperexpansion and changes of COPD as before. Calcified right lower lung nodule compatible with histoplasmoma as before. Lungs are overall clear. Mediastinal contour stable. No XXXX acute abnormalities since the previous examination.."
+  },
+  {
+    "index": 75,
+    "prediction": "x-ray of the chest showing thoracic area with a large left lung",
+    "reference": "No evidence of acute cardiopulmonary process. Mediastinal and hilar adenopathy compatible with patient's known sarcoidosis."
+  },
+  {
+    "index": 76,
+    "prediction": "pt with bilateral left lung and right breast",
+    "reference": "Low lung volumes with streaky bibasilar opacities, XXXX subsegmental atelectasis over infiltrate."
+  },
+  {
+    "index": 77,
+    "prediction": "chest x-ray, a patient with a history of right axillary thyroiditis and",
+    "reference": "The heart size and cardiomediastinal silhouette are within normal limits. Pulmonary vasculature appears normal. Minimal blunting of the lateral sulci bilaterally XXXX reflects pleural thickening or scarring, no dependent pleural fluid posteriorly. Minimal right base subsegmental atelectasis. No lobar consolidation. No pneumothorax."
+  },
+  {
+    "index": 78,
+    "prediction": "chest x-ray",
+    "reference": "No acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 79,
+    "prediction": "chest x-ray showing a normal lung, adnexal and pericardial effusion",
+    "reference": "No acute cardiopulmonary findings"
+  },
+  {
+    "index": 80,
+    "prediction": "chest x-ray of a male patient with a pericardial effusion",
+    "reference": "There is no radiographic evidence of acute cardiopulmonary disease."
+  },
+  {
+    "index": 81,
+    "prediction": "chest x-ray with bilateral pleural effusions and a pleura in the left lung",
+    "reference": "Stable blunting of right costophrenic XXXX with small pleural effusion versus thickening and associated healed right rib deformities."
+  },
+  {
+    "index": 82,
+    "prediction": "oblique left chest radiograph with bilateral hypovolemia presenting as a right-sided sple",
+    "reference": "No acute abnormality."
+  },
+  {
+    "index": 83,
+    "prediction": "chest x-ray of a male patient with pyoderma infiltration",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 84,
+    "prediction": "pleural effusion",
+    "reference": "Stable position of the left-sided hemodialysis catheter otherwise no acute cardiopulmonary disease."
+  },
+  {
+    "index": 85,
+    "prediction": "chest x-ray with thoracic and ribs displaced",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 86,
+    "prediction": "chest x-ray showing a thorax and ribs",
+    "reference": "Low lung volumes with grossly clear lungs."
+  },
+  {
+    "index": 87,
+    "prediction": "chest x-ray showing multiple aneurysms",
+    "reference": "1. No acute cardiopulmonary abnormalities. 2. No displaced rib fractures are seen. ."
+  },
+  {
+    "index": 88,
+    "prediction": "bronchiolar infarcts",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 89,
+    "prediction": "chest x-ray showing bilateral thoracic outlet, aorta and inferior vena ca",
+    "reference": "Mild cardiomegaly, with subsegmental atelectasis in the right lower lobe."
+  },
+  {
+    "index": 90,
+    "prediction": "a lung cancer resection was performed",
+    "reference": "Small bilateral pleural effusions."
+  },
+  {
+    "index": 91,
+    "prediction": "chest x-ray of a man with chest pain and enlarged lung",
+    "reference": "No acute cardiopulmonary disease. ."
+  },
+  {
+    "index": 92,
+    "prediction": "chest x-ray with lung abnormalities",
+    "reference": "XXXX opacity projecting over the left midlung. Comparison examinations would be useful. If no comparison examinations exist, XXXX would be helpful for further evaluation. ."
+  },
+  {
+    "index": 93,
+    "prediction": "chest x-ray showing bilateral pericardial effusions",
+    "reference": "XXXX XXXX right pleural effusion."
+  },
+  {
+    "index": 94,
+    "prediction": "chest x-ray of a female patient with chest pain",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 95,
+    "prediction": "thoracic and pleural nodularities with pleuritic effusions",
+    "reference": "Negative for acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 96,
+    "prediction": "chest x-ray of the patient with left aorta and lungs in view",
+    "reference": "No acute abnormality. ."
+  },
+  {
+    "index": 97,
+    "prediction": "a x-ray of the chest with two lung masses",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 98,
+    "prediction": "chest x-ray showing a swollen lung and a large amount of spleen and",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 99,
+    "prediction": "chest x-ray - thoracic view",
+    "reference": "1. Lobulated anterior mediastinal opacity on the lateral view, possibly consistent with a tortuous/ectatic thoracic aorta versus an anterior mediastinal mass. Contrast-enhanced XXXX examination would XXXX to further evaluate if clinically indicated. 2. Mild cardiomegaly with findings of chronic obstructive pulmonary disease."
+  },
+  {
+    "index": 100,
+    "prediction": "chest x-ray of a man with an enlarged left sternum",
+    "reference": "1. No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 101,
+    "prediction": "chest x-ray of a patient with a large pericardial effusion and a small",
+    "reference": "1. No acute cardiopulmonary abnormality. 2. Cardiomegaly. ."
+  },
+  {
+    "index": 102,
+    "prediction": "chest x-ray with right and left lobes, bilaterally enlarged aorta,",
+    "reference": "No evidence of thoracic injury."
+  },
+  {
+    "index": 103,
+    "prediction": "chest x-ray with two thoracic spines",
+    "reference": "No acute cardiopulmonary abnormality. ."
+  },
+  {
+    "index": 104,
+    "prediction": "chest x-ray - ny",
+    "reference": "Heart size is normal. Multiple scattered small 4 mm nodules throughout the chest. These most XXXX represent calcified small granulomas. A low KV film XXXX demonstrate these are probably calcified."
+  },
+  {
+    "index": 105,
+    "prediction": "chest x-ray of a female with emphysema",
+    "reference": "No acute cardiopulmonary findings. ."
+  },
+  {
+    "index": 106,
+    "prediction": "thoracic x-ray",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 107,
+    "prediction": "chest x-ray of a patient with a pt with an abnormal heart sound",
+    "reference": "Heart size normal. Lungs are clear."
+  },
+  {
+    "index": 108,
+    "prediction": "chest x-ray showing bilateral thoracic and left pericardial effusions",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 109,
+    "prediction": "chest x-ray of a man with a pleural effusion",
+    "reference": "Elevated diaphragms with atelectasis in the bases. Normal heart size. Mild spondylosis."
+  },
+  {
+    "index": 110,
+    "prediction": "chest x-ray of a patient with a recurrent or aortic aneurys",
+    "reference": "Small focal opacity in the left upper lobe, differential diagnosis includes subsegmental atelectasis, small infiltrate, scarring, followup recommended. No definite pleural effusion seen. Heart size within normal limits, no typical findings of pulmonary edema. Mediastinal and left hilar calcifications suggest a previous granulomatous process."
+  },
+  {
+    "index": 111,
+    "prediction": "chest x-ray of patient with left side lung",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 112,
+    "prediction": "chest x-ray of an adult male with a normal-looking aorta",
+    "reference": "No focal lung consolidation. COPD."
+  },
+  {
+    "index": 113,
+    "prediction": "x-ray of the chest, showing a heart with large heart and lungs",
+    "reference": "1. No acute pulmonary abnormality."
+  },
+  {
+    "index": 114,
+    "prediction": "chest x-ray showing a large amount of fluid in the left lung",
+    "reference": "No acute findings."
+  },
+  {
+    "index": 115,
+    "prediction": "chest x-ray showing right heart and right lung",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 116,
+    "prediction": "chest x-ray of male patient with pneumonia",
+    "reference": "No acute cardiopulmonary findings"
+  },
+  {
+    "index": 117,
+    "prediction": "thoracic x-ray of a patient with obstructive pulmonary disease",
+    "reference": "No radiographic evidence of acute cardiopulmonary disease."
+  },
+  {
+    "index": 118,
+    "prediction": "a man with no chest pain is displaying an anterior view of his left chest",
+    "reference": "No acute cardiopulmonary abnormalities. No visualized rib fractures."
+  },
+  {
+    "index": 119,
+    "prediction": "chest x-ray showing enlarged right pleura and right lung",
+    "reference": "No evidence of active disease."
+  },
+  {
+    "index": 120,
+    "prediction": "chest x-ray demonstrating atypical left sided thoracic oedema",
+    "reference": "No acute cardiopulmonary abnormality. ."
+  },
+  {
+    "index": 121,
+    "prediction": "chest x-ray with pleural effusion",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 122,
+    "prediction": "x-rays of the right and left pulmonary lobes showing enlarged bronchi",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 123,
+    "prediction": "chest x-ray, atypical left axilla - right axil - large",
+    "reference": "1. Cardiomegaly and small left pleural effusion versus pleural thickening 2. Streaky and patchy bibasilar opacities may be compatible with atelectasis versus consolidation, aspiration, clinical correlation recommended"
+  },
+  {
+    "index": 124,
+    "prediction": "chest x-ray showing a thoracic outlet",
+    "reference": "1. Increased size of left pneumothorax, with XXXX partial collapse of the left upper and lower lobes. 2. Small left pleural effusion/hemothorax."
+  },
+  {
+    "index": 125,
+    "prediction": "a chest x-ray showing an upper airway and a left pulmonary nodule",
+    "reference": "1. No acute pulmonary disease."
+  },
+  {
+    "index": 126,
+    "prediction": "chest x-ray of a woman with a right - sided thorax",
+    "reference": "1. No focal pulmonary consolidation or effusion. Minimal left basilar atelectasis. 2. Bilateral pulmonary nodules. These were not present on the prior study and may represent sequela of infection, but could represent neoplastic process. Correlation with history of primary malignancy is recommended. Further evaluation XXXX of the thorax could be performed, if clinically indicated."
+  },
+  {
+    "index": 127,
+    "prediction": "pulmonary oedema",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 128,
+    "prediction": "chest x-ray shows a bilateral upper lobe nodule",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 129,
+    "prediction": "chest x-ray",
+    "reference": "Low lung volumes, otherwise no acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 130,
+    "prediction": "chest x-ray of patient with a large tracheal mass",
+    "reference": "1. No acute pulmonary process. 2. Large hiatal hernia. ."
+  },
+  {
+    "index": 131,
+    "prediction": "chest x-ray showing a small chest with enlarged pericardium",
+    "reference": "1. Exam somewhat limited, costophrenic XXXX excluded. 2. Stable mild cardiomegaly. 3. Clear lungs."
+  },
+  {
+    "index": 132,
+    "prediction": "a chest x - ray of a male with a left sternoclavicular fracture",
+    "reference": "Comparison XXXX. No suspicious appearing lung nodules identified. Well-expanded and clear lungs. Mediastinal contour within normal limits. No acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 133,
+    "prediction": "a pleural effusion is present in the left psoas",
+    "reference": "There is XXXX peribronchial cuffing noted on the lateral view with fullness in the perihilar regions, more conspicuous than on the prior study. These can be manifestations of reactive airways disease. There is no lobar pneumonia. Lungs are mildly hyperinflated."
+  },
+  {
+    "index": 134,
+    "prediction": "iv lymphadenopathy and sarcoidosis, hepatoma, pleural",
+    "reference": "1. No acute abnormality of the chest. 2. XXXX deformities of T12 and L1, unchanged XXXX abdomen XXXX, XXXX abdomen XXXX, XXXX. 3. Fracture of right proximal humerus, incompletely evaluated. ."
+  },
+  {
+    "index": 135,
+    "prediction": "chest x-ray with a thorax and ribs",
+    "reference": "No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 136,
+    "prediction": "chest x-ray",
+    "reference": "1. Small 3.3 mm right-sided pneumothorax."
+  },
+  {
+    "index": 137,
+    "prediction": "chest x-ray of the patient with a large thorax",
+    "reference": "No acute findings"
+  },
+  {
+    "index": 138,
+    "prediction": "thoracic x-ray showing bilateral enlarged left pleural space",
+    "reference": "1. No definite evidence of metastatic disease. 2. Age-indeterminate XXXX deformity of T6, XXXX since study dated XXXX, XXXX. ."
+  },
+  {
+    "index": 139,
+    "prediction": "a radiologist will be able to identify a patient with a chest x-ray and identify",
+    "reference": "Increased size of density in the left cardiophrenic XXXX. Primary differential considerations include increased size of prominent epicardial fat, pericardial mass, pleural mass or cardiac aneurysm. CT chest with contrast is recommended. These findings and recommendations were discussed XXXX. XXXX by Dr. XXXX XXXX telephone at XXXX p.m. XXXX/XXXX. Dr. XXXX<XXXX>technologist receipt of the results."
+  },
+  {
+    "index": 140,
+    "prediction": "chest x-ray showing an inguinal hernia",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 141,
+    "prediction": "chest x-ray",
+    "reference": "No active disease.. No visible cardiopulmonary injuries."
+  },
+  {
+    "index": 142,
+    "prediction": "chest x-ray of a patient with pulmonary embolism",
+    "reference": "1. Continued elevation of the left hemidiaphragm. 2. No evidence of active disease."
+  },
+  {
+    "index": 143,
+    "prediction": "thoracic X-ray of patient with right pulmonary edema",
+    "reference": "No acute cardiopulmonary abnormality.."
+  },
+  {
+    "index": 144,
+    "prediction": "chest x-ray with nodular hypertrophy and large pleural effusion",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 145,
+    "prediction": "chest x-ray of a patient with left pleural effusion",
+    "reference": "No acute preoperative findings."
+  },
+  {
+    "index": 146,
+    "prediction": "a radiologist examines chest radiograph of the patient with a chest x-ray of the chest",
+    "reference": "No active disease."
+  },
+  {
+    "index": 147,
+    "prediction": "thoracic echocardiography and t-scan",
+    "reference": "No evidence of active disease."
+  },
+  {
+    "index": 148,
+    "prediction": "thorax",
+    "reference": "1. Chest. No acute cardiopulmonary findings. 2. Right knee. Stable advanced degenerative changes, most severe in the medial compartment."
+  },
+  {
+    "index": 149,
+    "prediction": "chest x-ray of a male with emphysema",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 150,
+    "prediction": "chest x-ray of patient with heart",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 151,
+    "prediction": "chest x-ray of patient with pneumonia",
+    "reference": "1. No acute cardiopulmonary process. ."
+  },
+  {
+    "index": 152,
+    "prediction": "chest x-ray with chest of pleural effusion",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 153,
+    "prediction": "a chest x-ray of a patient with a pulmonary edema",
+    "reference": "1. Chest. No visible active cardiopulmonary disease. 2. Left hip. Advanced posttraumatic osteoarthritis."
+  },
+  {
+    "index": 154,
+    "prediction": "chest x-ray with lung in view",
+    "reference": "1. Findings consistent with emphysema with interstitial thickening. This could be due to edema superimposed on emphysema or pneumonitis or fibrosis. XXXX chest if warranted clinically given recent onset of dyspnea. ."
+  },
+  {
+    "index": 155,
+    "prediction": "x-ray of patient with ankylosing spondylitis",
+    "reference": "1. No evidence of active disease."
+  },
+  {
+    "index": 156,
+    "prediction": "chest x-ray with abnormal ejection fraction",
+    "reference": "1. No acute abnormality. 2. No evidence of pulmonary tuberculosis."
+  },
+  {
+    "index": 157,
+    "prediction": "chest x-ray of patient with acute heart failure showing pericarditis",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 158,
+    "prediction": "chest x-ray with the pulmonary and esophagus on the left",
+    "reference": "No comparison chest x-XXXX. Well-expanded and clear lungs. Mediastinal contour within normal limits. No acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 159,
+    "prediction": "chest x-ray",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 160,
+    "prediction": "chest x-ray",
+    "reference": "1. Low volume study without definite acute process. 2. Mild cardiomegaly."
+  },
+  {
+    "index": 161,
+    "prediction": "psa with pulmonary hypertension and nodes",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 162,
+    "prediction": "chest x-ray with pleural effusion",
+    "reference": "Normal chest."
+  },
+  {
+    "index": 163,
+    "prediction": "chest x-ray of a patient with a swollen right lung",
+    "reference": "Heart size normal. Lungs clear. Calcified 5 mm right upper lobe granuloma."
+  },
+  {
+    "index": 164,
+    "prediction": "chest x-ray of patient with pulmonary nodule in the left lower lobe",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 165,
+    "prediction": "chest x-ray demonstrating thoracic spondylosis",
+    "reference": "Mild hyperinflation. Scattered chronic appearing irregular interstitial markings with no focal alveolar consolidation. No definite pleural effusion seen. Heart size near top normal limits, aortic ectasia/tortuosity similar to prior. Right hemidiaphragm eventration. No typical findings of pulmonary edema."
+  },
+  {
+    "index": 166,
+    "prediction": "an x-ray of the chest showing an area of lung",
+    "reference": "No acute cardiopulmonary findings. ."
+  },
+  {
+    "index": 167,
+    "prediction": "a chest x-ray with a small lung on the right",
+    "reference": "Limited examination with stable cardiomegaly and low lung volumes without acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 168,
+    "prediction": "the sternum is displaced in an oblique manner with an elevated sacroiliac joint",
+    "reference": "Persistent and biapical opacities. No acute pulmonary disease identified."
+  },
+  {
+    "index": 169,
+    "prediction": "chest x-ray",
+    "reference": "Continued slight cardiomegaly with no evidence for failure or pneumonia."
+  },
+  {
+    "index": 170,
+    "prediction": "chest x-ray with a normal heart",
+    "reference": "Stable appearance of the chest without acute abnormality noted."
+  },
+  {
+    "index": 171,
+    "prediction": "chest x-ray of patient with right axillary",
+    "reference": "No acute cardiopulmonary finding."
+  },
+  {
+    "index": 172,
+    "prediction": "chest x-ray shows enlarged aorta",
+    "reference": "1. No acute cardiopulmonary abnormality. 2. Mild cardiomegaly, stable."
+  },
+  {
+    "index": 173,
+    "prediction": "chest x-ray showing nodules in the thoracic and lumbar region with nodular",
+    "reference": "No acute cardiopulmonary finding."
+  },
+  {
+    "index": 174,
+    "prediction": "chest x-ray with thoracic extension",
+    "reference": "13 - 14 mm ring-shaped opacity with central lucency, seen with certainty on PA view only, projects over right midlung. Uncertain if this represent something within the lung or external to the patient. There is also a 5 mm nodular opacity projecting over the left upper lung at the level of AP XXXX. These findings could be further evaluated XXXX if clinically indicated. No acute airspace disease. Mediastinal contour normal limits. No effusions."
+  },
+  {
+    "index": 175,
+    "prediction": "x-ray showing thoracic cavity with pleural effusion",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 176,
+    "prediction": "chest x-ray of patient with thoracic outlet syndrome",
+    "reference": "1. Stable right basilar scarring and right pleural thickening"
+  },
+  {
+    "index": 177,
+    "prediction": "chest x-ray showing bilateral infiltrating lung disease",
+    "reference": "Large left pleural effusion with minimal residual left lung aeration. Small right pleural effusion. Right lung bronchovascular crowding and indistinct vascular margination which may be secondary to crowding, infiltrates or pulmonary edema. Limited assessment of heart size due to obscured heart XXXX."
+  },
+  {
+    "index": 178,
+    "prediction": "thoracic x-ray of the left pleura",
+    "reference": "No active disease."
+  },
+  {
+    "index": 179,
+    "prediction": "chest x-ray of the patient with a lung and right side lung",
+    "reference": "There is cardiomegaly. Lateral view somewhat limited however small bilateral pleural effusions suspected. There is central vascular congestion."
+  },
+  {
+    "index": 180,
+    "prediction": "a patient with anatomical right lung demonstrates saturnic pleura on an x-",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 181,
+    "prediction": "chest x-ray showing pulmonary and right upper lobe",
+    "reference": "Emphysema without superimposed pneumonia."
+  },
+  {
+    "index": 182,
+    "prediction": "systolic blood pressure at rest is high",
+    "reference": "No focal alveolar consolidation, no definite pleural effusion seen, left hilar calcifications and dense nodule in the left lung suggest a previous granulomatous process. Considering differences in technical factors XXXX stable cardiomediastinal silhouette with normal heart size, bronchovascular crowding without typical findings of pulmonary edema."
+  },
+  {
+    "index": 183,
+    "prediction": "chest x-ray showing multiple enlarged air spaces",
+    "reference": "No significant change compared to prior. Bibasilar airspace disease may represent infection or mild edema."
+  },
+  {
+    "index": 184,
+    "prediction": "chest x-ray of the patient with thoracic outlet syndrome",
+    "reference": "No acute cardiopulmonary process. ."
+  },
+  {
+    "index": 185,
+    "prediction": "chest x ray showing a rib and two ribs",
+    "reference": "Emphysema without acute disease."
+  },
+  {
+    "index": 186,
+    "prediction": "chest x-ray, patient with anal cancer",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 187,
+    "prediction": "chest x-ray",
+    "reference": "1. Improved right mid lung and right basilar consolidation. 2. Decreasing right pleural effusion."
+  },
+  {
+    "index": 188,
+    "prediction": "chest x-ray showing bilateral bilateral chest pleura and nodularity",
+    "reference": "Low lung volumes. No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 189,
+    "prediction": "chest x-ray of a patient with pulmonary nodules",
+    "reference": "1. No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 190,
+    "prediction": "he was found to have a tumor on his thorax",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 191,
+    "prediction": "chest x-ray demonstrates a right sided enlarged thorax and pericardial eff",
+    "reference": "Central pulmonary vascular congestion without XXXX edema, consolidation. XXXX bilateral pleural effusions."
+  },
+  {
+    "index": 192,
+    "prediction": "chest x-rays, with right side ribs in oblique position",
+    "reference": "No acute cardiopulmonary abnormality. No radiographic evidence of metastatic disease in the chest."
+  },
+  {
+    "index": 193,
+    "prediction": "chest x-ray showing the left ribs and thoracic outlet",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 194,
+    "prediction": "thoracic x-ray shows a patient with an enlarged sternum",
+    "reference": "Chest 1. No acute cardiopulmonary findings. Abdomen 1. Nonspecific bowel XXXX pattern without evidence of obstruction."
+  },
+  {
+    "index": 195,
+    "prediction": "chest x-ray of male with suspected pleural effusion",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 196,
+    "prediction": "chest x-ray, chest wall",
+    "reference": "Small calcification right lung base with appearance of old granulomatous disease. Also small perihilar calcified lymph XXXX. Lungs are clear. No active parenchymal disease. No XXXX of pleural effusions. No pulmonary edema. Normal heart size. No XXXX of active cardiopulmonary disease. Unchanged."
+  },
+  {
+    "index": 197,
+    "prediction": "chest x-ray of male patient with suspected pulmonary hypertension",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 198,
+    "prediction": "chest x-ray",
+    "reference": "1. Elevated left hemidiaphragm. No evidence of active disease."
+  },
+  {
+    "index": 199,
+    "prediction": "thoracic x-ray of patient with apnea",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 200,
+    "prediction": "a woman's chest with an x-ray of the upper right lung",
+    "reference": "No comparison chest x-XXXX. Well-expanded and clear lungs. Mediastinal contour within normal limits. No acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 201,
+    "prediction": "chest x-ray showing a right lung on the left side",
+    "reference": "No radiographic evidence of acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 202,
+    "prediction": "chest x-ray of a young man with bilateral pneumonia",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 203,
+    "prediction": "chest x-ray of a patient with chest cancer",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 204,
+    "prediction": "chest x-ray of an adult male with a suspected malignant esophageal tumor",
+    "reference": "Hyperexpanded lungs without focal air space disease."
+  },
+  {
+    "index": 205,
+    "prediction": "chest x-ray with a thorax",
+    "reference": "Negative acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 206,
+    "prediction": "chest x-ray showing a large area of retraction and a thin line of calcification in",
+    "reference": "No active disease."
+  },
+  {
+    "index": 207,
+    "prediction": "x-ray of chest",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 208,
+    "prediction": "chest x-ray, chest X-ray. he was presenting with a chest pain and",
+    "reference": "No acute cardiopulmonary disease"
+  },
+  {
+    "index": 209,
+    "prediction": "chest x-ray of patient with severe lung disease and nodules",
+    "reference": "XXXX of COPD and interstitial lung disease. No definite pneumonia. There does appear to be progression of changes since XXXX."
+  },
+  {
+    "index": 210,
+    "prediction": "chest x-ray with a large spleen and two left lung areas",
+    "reference": "1. No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 211,
+    "prediction": "chest x-ray with lung enhancement",
+    "reference": "The heart size and cardiomediastinal silhouette are stable and within normal limits. Pulmonary vasculature appears normal. There is no focal air space consolidation. No pleural effusion or pneumothorax."
+  },
+  {
+    "index": 212,
+    "prediction": "chest x-ray of a patient with an enlarged right aorta",
+    "reference": "Focal area of XXXX scarring or atelectasis within the lingula. No acute pulmonary process."
+  },
+  {
+    "index": 213,
+    "prediction": "thoracic x-ray showing bilateral pleural effusions with intercostal space narrowing",
+    "reference": "1. Ill-defined oblong opacity in the lateral right base. This may represent pleural based process. The exact XXXX is unclear. Followup exam is suggested to confirm clearing or stability."
+  },
+  {
+    "index": 214,
+    "prediction": "x-ray image of a male patient with a heart murmur",
+    "reference": "1. Chest. No active disease. 2. Right shoulder. Healing scapular fracture."
+  },
+  {
+    "index": 215,
+    "prediction": "chest x-ray with lung nodules",
+    "reference": "Low lung volumes with bibasilar streaky opacities most XXXX representing subsegmental atelectasis."
+  },
+  {
+    "index": 216,
+    "prediction": "chest x-ray of patient with right axillary dilated airways",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 217,
+    "prediction": "chest x-ray showing enlarged lungs",
+    "reference": "1. No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 218,
+    "prediction": "chest x-ray showing chest wall",
+    "reference": "Stable cardiomegaly and persistent minimal bibasilar atelectasis."
+  },
+  {
+    "index": 219,
+    "prediction": "chest x-ray of a man with a left clavicle",
+    "reference": "No acute abnormality identified."
+  },
+  {
+    "index": 220,
+    "prediction": "a chest x-ray of a male with bilateral pleural effusion",
+    "reference": "Normal chest"
+  },
+  {
+    "index": 221,
+    "prediction": "chest x-ray of patient with left lung emphysema",
+    "reference": "Small streaky opacity lateral right lung, subsegmental atelectasis versus scarring."
+  },
+  {
+    "index": 222,
+    "prediction": "chest x-ray of the left lung showing nodule in the lower right lobe",
+    "reference": "No acute abnormality."
+  },
+  {
+    "index": 223,
+    "prediction": "a chest x-ray of a female patient showing thoracic pleural effusion with",
+    "reference": "1. Vague density in right XXXX, XXXX related to scapular tip and superimposed ribs. Consider oblique images to exclude true nodule. 2. No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 224,
+    "prediction": "chest x-ray, left chest",
+    "reference": "1. Stable left lung consolidation, possibly infectious pneumonia and/or aspiration. Recommend followup radiographs after treatment to ensure complete resolution. 2. Stable mild residual medial right basilar airspace disease."
+  },
+  {
+    "index": 225,
+    "prediction": "chest x-ray shows a left sided pneumonia, with a right lung in the background",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 226,
+    "prediction": "chest x-ray of patient with idiopathic pulmonary fibrosis",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 227,
+    "prediction": "chest x-ray showing a large rib on the left and a small rib near the right",
+    "reference": "heart size normal. Lungs clear. Calcified 5 mm right midlung granuloma."
+  },
+  {
+    "index": 228,
+    "prediction": "bronchial - pleural effusion",
+    "reference": "Heart size, mediastinal silhouette and pulmonary vascularity are within normal limits. Lungs are well expanded with no focal infiltrate or pleural effusion. No pneumothorax."
+  },
+  {
+    "index": 229,
+    "prediction": "pleura and upper thoracic area are narrow and opac",
+    "reference": "No acute cardiopulmonary abnormality. ."
+  },
+  {
+    "index": 230,
+    "prediction": "chest x-ray of male patient with bilateral pulmonary edema",
+    "reference": "Low lung volumes with increased lung markings particularly in the left perihilar region XXXX related to history of bronchitis. No acute infiltrate."
+  },
+  {
+    "index": 231,
+    "prediction": "chest x-ray with adnexal pleural effusion",
+    "reference": "1. No acute pulmonary abnormality. 2. Mild cardiomegaly without pulmonary edema."
+  },
+  {
+    "index": 232,
+    "prediction": "chest x-ray",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 233,
+    "prediction": "chest x-ray of the patient with bilateral lung",
+    "reference": "Heart size, mediastinal silhouette, pulmonary vascularity are within normal limits. There is no focal air space consolidation to suggest acute pneumonia or active tuberculous infection. No pleural effusion or pneumothorax."
+  },
+  {
+    "index": 234,
+    "prediction": "chest x-ray reveals a plethora of pleural spaces and pleura",
+    "reference": "Left knee. Moderately severe medial joint space narrowing and spurring. Chest. Heart size normal. Lungs clear."
+  },
+  {
+    "index": 235,
+    "prediction": "a chest x-ray of a man with lung cancer",
+    "reference": "Lungs are clear. No parenchymal infiltrates. No pulmonary edema. No XXXX of pleural effusions. No XXXX of acute cardiopulmonary disease. normal"
+  },
+  {
+    "index": 236,
+    "prediction": "thoracic x-ray with splenic and intercostal spaces",
+    "reference": "Negative chest x-XXXX. No evidence of pneumonia."
+  },
+  {
+    "index": 237,
+    "prediction": "chest x-ray of male with acute pulmonary infection",
+    "reference": "No acute findings"
+  },
+  {
+    "index": 238,
+    "prediction": "chest x-ray of patient with right lung abnormalities",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 239,
+    "prediction": "chest x ray with left thoracic and right axillary splenomegaly",
+    "reference": "Postsurgical and postradiation changes on the left with no acute abnormality."
+  },
+  {
+    "index": 240,
+    "prediction": "sarcopenia & left lobe hypertrophy obstructing the right lob",
+    "reference": "Mild blunting left costophrenic recess, possibly mild atelectasis or scarring."
+  },
+  {
+    "index": 241,
+    "prediction": "the chest x-ray shows a thoracic compression on the right lung and left lung",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 242,
+    "prediction": "chest x-ray showing a bilateral pneumothorax",
+    "reference": "Persistent but decreasing basilar infiltrates atelectasis. Possible small effusions. Sternotomy. Heart size normal. Left IJ catheter tip mid SVC"
+  },
+  {
+    "index": 243,
+    "prediction": "thoracic radiograph showing the lungs and chest",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 244,
+    "prediction": "chest x-ray showing lung and heart",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 245,
+    "prediction": "chest x-ray of patient with syphilis",
+    "reference": "1. Cardiomegaly and findings of prior asbestos exposure without interval acute cardiopulmonary findings."
+  },
+  {
+    "index": 246,
+    "prediction": "chest x-ray of patient with thoracic and abdominal adenocarcinoma",
+    "reference": "No acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 247,
+    "prediction": "chest x-ray showing bilateral thoracic calcifications",
+    "reference": "1. Bullous emphysema and interstitial fibrosis. 2. Probably scarring in the left apex, although difficult to exclude a cavitary lesion. 3. Opacities in the bilateral upper lobes could represent scarring, however the absence of comparison exam, recommend short interval followup radiograph or CT thorax to document resolution."
+  },
+  {
+    "index": 248,
+    "prediction": "chest x-ray with bilateral intercostal spaces",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 249,
+    "prediction": "chest x-ray - left lung",
+    "reference": "No acute findings"
+  },
+  {
+    "index": 250,
+    "prediction": "chest x-ray of patient with chest pain",
+    "reference": "No acute or active cardiac, pulmonary or pleural disease."
+  },
+  {
+    "index": 251,
+    "prediction": "chest x-ray shows bilateral, asymmetrical calcifications",
+    "reference": "No focal lung opacity, pleural effusion of pneumothorax."
+  },
+  {
+    "index": 252,
+    "prediction": "chest x-ray",
+    "reference": "Mild cardiomegaly. Densely calcified aorta. Prominence of the pulmonary outflow and XXXX most XXXX indicates enlarged pulmonary arteries and raise concern for pulmonary artery hypertension. There is no overt edema. The right diaphragm is elevated, there are small right and XXXX left pleural effusions. No pneumothorax."
+  },
+  {
+    "index": 253,
+    "prediction": "a thorax x-ray of a chest of ribs",
+    "reference": "Stable enlarged cardiomediastinal silhouette. Tortuous aorta. Low lung volumes and left basilar bandlike opacities suggestive of scarring or atelectasis. No overt edema. Question small right pleural effusion versus pleural thickening. No visible pneumothorax."
+  },
+  {
+    "index": 254,
+    "prediction": "hematoxylin and eosin stain on chest x-ray",
+    "reference": "No acute cardiopulmonary disease. ."
+  },
+  {
+    "index": 255,
+    "prediction": "chest x-ray of the patient showing the lung base, which is enlarged",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 256,
+    "prediction": "a patient has a lower sternal notch and an enlarged lung",
+    "reference": "1. Left lower lobe pneumonia and minimal scarring or subsegmental atelectasis in the right lung base."
+  },
+  {
+    "index": 257,
+    "prediction": "radiologist has noted a bilateral chest wall and a normal heart - lung ratio",
+    "reference": "No acute cardiothoracic abnormality."
+  },
+  {
+    "index": 258,
+    "prediction": "chest x-ray of patient with left lung metastasis",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 259,
+    "prediction": "chest x-ray of patient with a left upper lobe in the middle",
+    "reference": "Interstitial markings bilaterally, pulmonary fibrosis, unchanged. ."
+  },
+  {
+    "index": 260,
+    "prediction": "lateral lung is seen",
+    "reference": "no cardiomegaly with bilateral small pleural effusions. Decubitus x-XXXX XXXX be informative. No evidence of pneumonia, nodules, or masses."
+  },
+  {
+    "index": 261,
+    "prediction": "a lung is visible in the right lung and the right lungs are visible in this image",
+    "reference": "Clear lungs."
+  },
+  {
+    "index": 262,
+    "prediction": "chest x-ray showing chest obliquely displaced with the left chest",
+    "reference": "Normal chest"
+  },
+  {
+    "index": 263,
+    "prediction": "chest x-ray - male with bilateral pneumonia",
+    "reference": "No acute radiographic cardiopulmonary process. ."
+  },
+  {
+    "index": 264,
+    "prediction": "a patient has multiple large aneurysms in the chest",
+    "reference": "Heart size within normal limits. Dense mitral annular calcification. Tortuous and ectatic, atherosclerotic aorta. No edema. Lungs mildly hyperinflated. There is left basilar scarring. No XXXX consolidation, pleural effusion or pneumothorax."
+  },
+  {
+    "index": 265,
+    "prediction": "chest x-ray with a lung",
+    "reference": "1. Right lower lobe pulmonary nodule. XXXX for better characterization. 2. No acute pulmonary process."
+  },
+  {
+    "index": 266,
+    "prediction": "chest x-ray showing an enlarged right sternum and multiple lung masses",
+    "reference": "Interval postsurgical changes of XXXX sternotomy without acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 267,
+    "prediction": "thoracic x-ray - bronchoscopy image of a patient with left and right",
+    "reference": "Stable normal cardiac size and contour, unremarkable mediastinal silhouette. Normal pulmonary XXXX and interstitium. Lungs clear, no airspace disease, pleural effusion, or pneumothorax. No active/acute cardiopulmonary disease."
+  },
+  {
+    "index": 268,
+    "prediction": "thoracic echocardiography of a patient with suspected sarcoidosis",
+    "reference": "Right upper lobe pneumonia. Consideration may be given for followup chest x-XXXX, following appropriate therapy."
+  },
+  {
+    "index": 269,
+    "prediction": "chest x-ray - chest of a male patient",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 270,
+    "prediction": "chest x-ray with pneumonia",
+    "reference": "Heart size is normal. Lungs are clear. Overexpanded lungs suggests emphysema. No nodules masses or effusions"
+  },
+  {
+    "index": 271,
+    "prediction": "chest x-rays of the patient demonstrating a large pleural effusion with thoracic",
+    "reference": "1. There is minimal streaky opacity in the posterior lungs, possibly cyst, scarring, or pneumonia. 2. Heart size and pulmonary XXXX appear normal 3. Mediastinal contours are normal"
+  },
+  {
+    "index": 272,
+    "prediction": "- apical neoplasm",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 273,
+    "prediction": "chest x-ray with bilateral pneumonia",
+    "reference": "No acute cardiopulmonary abnormality.."
+  },
+  {
+    "index": 274,
+    "prediction": "chest x-ray with bilateral pleural effusion",
+    "reference": "No acute findings."
+  },
+  {
+    "index": 275,
+    "prediction": "thorax with ribs in the apex",
+    "reference": "Findings most suggestive of infectious or reactive small airways disease. No focal pneumonia."
+  },
+  {
+    "index": 276,
+    "prediction": "chest x-ray - chest",
+    "reference": "1. XXXX indeterminant small nodular opacities. May be granulomas or bone islands. However, XXXX is recommended given the history of malignancy. 2. Otherwise no acute cardiac or pulmonary disease process identified."
+  },
+  {
+    "index": 277,
+    "prediction": "chest x-ray of patient with right thorax and ribs",
+    "reference": "1. No acute cardiopulmonary findings."
+  },
+  {
+    "index": 278,
+    "prediction": "chest x-ray demonstrating substernal hypertrophy",
+    "reference": "Heart size is normal and lungs are clear."
+  },
+  {
+    "index": 279,
+    "prediction": "chest x-ray",
+    "reference": "Right middle lobe infiltrate consistent with pneumonia."
+  },
+  {
+    "index": 280,
+    "prediction": "chest x-ray showing the right and left sides of the lungs",
+    "reference": "No acute or active cardiac or pulmonary disease process. Cannot exclude small pleural effusions."
+  },
+  {
+    "index": 281,
+    "prediction": "chest x-ray showing thoracic and thigh area",
+    "reference": "No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 282,
+    "prediction": "a patient with an enlarged sternum and right lung has a bilateral lesion on the right side of",
+    "reference": "1. Emphysematous changes. 2. Resolution of prior right midlung infiltrate."
+  },
+  {
+    "index": 283,
+    "prediction": "chest x-ray revealing an enlarged pericardium",
+    "reference": "No acute cardiopulmonary findings. ."
+  },
+  {
+    "index": 284,
+    "prediction": "chest x-ray demonstrates a pleural effusion with multiple foci",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 285,
+    "prediction": "- ct of the right lung",
+    "reference": "1. No acute cardiopulmonary abnormality. 2. Mild age indeterminate anterior wedging at the T11 level."
+  },
+  {
+    "index": 286,
+    "prediction": "x-ray of the chest of a patient with a small lung mass",
+    "reference": "1. Left base airspace disease. 2. Left venous catheter with tip in the right atrium."
+  },
+  {
+    "index": 287,
+    "prediction": "chest x-ray of a patient with emphysema",
+    "reference": "Mild XXXX XXXX opacities compatible with residual atelectasis/scarring."
+  },
+  {
+    "index": 288,
+    "prediction": "x-ray of the chest revealing a large right pulmonary nodule and a septal defect",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 289,
+    "prediction": "chest x-ray showing node adenocarcinoma",
+    "reference": "Negative for acute cardiopulmonary findings."
+  },
+  {
+    "index": 290,
+    "prediction": "chest x-ray showing a lobe with nodules, and a left lobus",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 291,
+    "prediction": "x-ray of a patient with nodular pulmonary fibrosis",
+    "reference": "Emphysema without acute disease."
+  },
+  {
+    "index": 292,
+    "prediction": "chest x-ray of male with a chest aorta - left with right lobe",
+    "reference": "Right-sided perihilar calcified lymph XXXX and infracarinal calcified lymph XXXX. These XXXX represent previous granulomatous disease. Lung parenchyma is clear. No airspace disease. No pulmonary edema. Normal heart size. No XXXX of pleural effusions. No XXXX of active cardiopulmonary disease."
+  },
+  {
+    "index": 293,
+    "prediction": "chest x-ray showing the left lateral and right pulmonary lobes",
+    "reference": "No acute cardiopulmonary finding."
+  },
+  {
+    "index": 294,
+    "prediction": "chest x-ray of a patient with an upper lung mass",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 295,
+    "prediction": "chest x-ray - left side",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 296,
+    "prediction": "chest x-ray of a patient with lung involvement and a pleural effusion",
+    "reference": "1. No acute cardiopulmonary findings. 2. Age-indeterminate mild anterior wedge deformity of a lower thoracic or upper lumbar vertebra. Correlate for focal tenderness and with prior imaging, if possible."
+  },
+  {
+    "index": 297,
+    "prediction": "chest x-ray showing left lung and ribs",
+    "reference": "No active disease."
+  },
+  {
+    "index": 298,
+    "prediction": "ribs and sternum",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 299,
+    "prediction": "chest x-ray with a right lung",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 300,
+    "prediction": "chest x ray of a patient with thoracic pain",
+    "reference": "1. Clear lungs. No acute chest findings. 2. Peripheral vascular disease."
+  },
+  {
+    "index": 301,
+    "prediction": "chest x-ray with no evidence of lung disease",
+    "reference": "1. No evidence of active disease."
+  },
+  {
+    "index": 302,
+    "prediction": "chest x-ray of a patient with a rib fracture",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 303,
+    "prediction": "chest x-ray of female patient with bilateral pericardial effusion",
+    "reference": "1. Heart size upper limits of normal. 2. Small left pleural effusion with associated airspace disease."
+  },
+  {
+    "index": 304,
+    "prediction": "chest x-ray showing chest wall with air in the left side",
+    "reference": "No acute cardiopulmonary abnormality. Prior granulomatous infection."
+  },
+  {
+    "index": 305,
+    "prediction": "x-ray of the chest with bilateral hyperextended lungs and a lung",
+    "reference": "No acute cardiopulmonary disease. ."
+  },
+  {
+    "index": 306,
+    "prediction": "chest x-ray of patient with pulmonary embolism",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 307,
+    "prediction": "thoracic x-ray showing right sternum",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 308,
+    "prediction": "the thorax is clearly evident",
+    "reference": "Clear lungs."
+  },
+  {
+    "index": 309,
+    "prediction": "chest x-ray showing bilateral thoracic stenosis",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 310,
+    "prediction": "x - ray showing two lung nodes",
+    "reference": "No active disease."
+  },
+  {
+    "index": 311,
+    "prediction": "a patient with severe pneumonia has a thoracic echocardiography, but it is unclear if the",
+    "reference": "Mildly hyperexpanded lungs without acute focal infiltrate."
+  },
+  {
+    "index": 312,
+    "prediction": "pleural effusion is prominent, but chest wall appears normal",
+    "reference": "1. No acute pulmonary disease."
+  },
+  {
+    "index": 313,
+    "prediction": "chest x-ray",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 314,
+    "prediction": "a cardiac catheter is inserted into the left axillary region",
+    "reference": "No evidence of acute cardiopulmonary disease."
+  },
+  {
+    "index": 315,
+    "prediction": "chest x-ray of patient with acute chest pain",
+    "reference": "1. No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 316,
+    "prediction": "thoracic x-ray of a male with multiple pulmonary nodules",
+    "reference": "Focal airspace disease in the right middle lobe. This is most concerning for pneumonia. Recommend follow up to ensure resolution."
+  },
+  {
+    "index": 317,
+    "prediction": "the spleen is visible and the lungs are enlarged",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 318,
+    "prediction": "x-ray of the chest of the patient with a right lung lesion",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 319,
+    "prediction": "chest x-ray showing lung and ribs",
+    "reference": "No active disease."
+  },
+  {
+    "index": 320,
+    "prediction": "chest x-ray - lung mass in right upper lobe",
+    "reference": "1. Focal density overlying the right first rib and medial right clavicle. This could be bony in origin but an underlying pulmonary lesion cannot be excluded. No prior images are currently available for comparison. If outside images are available comparison is recommended. Otherwise XXXX scan of the chest."
+  },
+  {
+    "index": 321,
+    "prediction": "chest x-ray of the patient with emphysema",
+    "reference": "Probable COPD and old granulomatous disease."
+  },
+  {
+    "index": 322,
+    "prediction": "a computed tomography (ct) scan of a chest with an increase in radial masses",
+    "reference": "Normal chest"
+  },
+  {
+    "index": 323,
+    "prediction": "chest x-ray of a patient with no cardiac involvement",
+    "reference": "There is no radiographic evidence of acute cardiopulmonary disease."
+  },
+  {
+    "index": 324,
+    "prediction": "chest x-ray of patient with left-sided lung",
+    "reference": "Borderline cardiac enlargement. Vascular congestion without overt pulmonary edema. Basilar atelectasis with XXXX posterior recess pleural effusions. Overall, findings of mild volume overload."
+  },
+  {
+    "index": 325,
+    "prediction": "spirometry in this image is normal",
+    "reference": "Low lung volumes, otherwise clear."
+  },
+  {
+    "index": 326,
+    "prediction": "x-ray of a patient with a large tracheotomy",
+    "reference": "1. XXXX densities in left base may be compatible with scarring or subsegmental atelectasis 2. Abnormal opacity in the right base XXXX due at XXXX in part to atelectasis with right hemidiaphragm eventration, question small right pleural effusion"
+  },
+  {
+    "index": 327,
+    "prediction": "chest x-ray of a patient with severe pneumonia",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 328,
+    "prediction": "emphysema",
+    "reference": "1. No finding suggestive of active disease."
+  },
+  {
+    "index": 329,
+    "prediction": "chest x-ray of patient with nodular pneumonia",
+    "reference": "1. Widened upper mediastinal silhouette. May represent vascular shadows exaggerated by supine and very lordotic imaging technique. However, the setting of XXXX, upper mediastinal hematoma not excluded. Depending on clinical suspicion and mechanism further investigation may be warranted. 2. Mild cardiomegaly appears stable. No edema. No layering pleural effusions, focal consolidation or pneumothorax."
+  },
+  {
+    "index": 330,
+    "prediction": "pleura and chest wall",
+    "reference": "Emphysema without acute disease."
+  },
+  {
+    "index": 331,
+    "prediction": "chest x-ray of patient with lung cyst",
+    "reference": "No active disease."
+  },
+  {
+    "index": 332,
+    "prediction": "chest x-ray showing enlarged right thorax and left pulmonary artery",
+    "reference": "No acute process."
+  },
+  {
+    "index": 333,
+    "prediction": "chest x-ray of patient with esophagus and right axillary nodules",
+    "reference": "Stable chest x-XXXX, without acute cardiopulmonary findings."
+  },
+  {
+    "index": 334,
+    "prediction": "chest x-ray of a male patient with acute myelogenous leukemia",
+    "reference": "Normal heart size. Normal pulmonary vasculature. Normal mediastinal contours. Lung parenchyma is clear. No airspace disease. No pulmonary edema. No XXXX of pleural effusions. No XXXX of active tuberculosis. No XXXX of active cardiopulmonary disease."
+  },
+  {
+    "index": 335,
+    "prediction": "pleural effusion in a male",
+    "reference": "No x-XXXX evidence of metastatic disease."
+  },
+  {
+    "index": 336,
+    "prediction": "pleural effusion in a patient with psa",
+    "reference": "Normal heart size. Normal pulmonary vasculature. Normal mediastinal contours. Lung parenchyma is clear. No airspace disease. No pulmonary edema. No XXXX of pleural effusions. No XXXX of active cardiopulmonary disease."
+  },
+  {
+    "index": 337,
+    "prediction": "chest x-ray of a patient with suspected lung cancer",
+    "reference": "1. No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 338,
+    "prediction": "chest x-ray with chest wall and right lung",
+    "reference": "Lines and tubes as above. Moderate-to-large left pleural effusion, with adjacent airspace disease or atelectasis."
+  },
+  {
+    "index": 339,
+    "prediction": "chest x-ray with no evidence of heart or lung",
+    "reference": "No acute cardiopulmonary abnormalities. Emphysematous changes of the lungs."
+  },
+  {
+    "index": 340,
+    "prediction": "thoracic radiographs of patient with analgia and asthenia",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 341,
+    "prediction": "chest x-ray of a young woman with pleuritic fibrosis",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 342,
+    "prediction": "chest x-ray of a young male with severe dyspnea",
+    "reference": "Chronic interstitial and bullous disease. No acute findings."
+  },
+  {
+    "index": 343,
+    "prediction": "chest x ray of patient with lung cancer",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 344,
+    "prediction": "chest x-ray , no evidence of psoas thorax",
+    "reference": "No lobar pneumonia is present."
+  },
+  {
+    "index": 345,
+    "prediction": "thoracic X-ray showing a truncal lesion",
+    "reference": "Hyperinflated lungs, air trapping versus inspiratory XXXX."
+  },
+  {
+    "index": 346,
+    "prediction": "chest x-ray - lung",
+    "reference": "No active disease."
+  },
+  {
+    "index": 347,
+    "prediction": "chest x-ray showing a lung cyst",
+    "reference": "No acute cardiopulmonary disease"
+  },
+  {
+    "index": 348,
+    "prediction": "chest x-ray of a patient with a history of pneumonia and upper airway obstruction",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 349,
+    "prediction": "chest x-ray of patient with left pulmonary embolism",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 350,
+    "prediction": "aortic valve and mitral valve enlargement",
+    "reference": "No evidence of acute cardiopulmonary process."
+  },
+  {
+    "index": 351,
+    "prediction": "chest x-ray showing a patient with a large amount of lung",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 352,
+    "prediction": "chest x-ray of male with emphysema",
+    "reference": "No active disease."
+  },
+  {
+    "index": 353,
+    "prediction": "X-ray of the right axillary region of the left lobe",
+    "reference": "No acute pulmonary findings. ."
+  },
+  {
+    "index": 354,
+    "prediction": "chest x-ray with a heart and lung on left",
+    "reference": "Low lung volumes with bronchovascular crowding, bibasilar opacities XXXX due at XXXX in part to atelectasis, infiltrates, pulmonary edema difficult to entirely exclude."
+  },
+  {
+    "index": 355,
+    "prediction": "a lung with pleural effusion",
+    "reference": "1. Small left pleural effusion. 2. Mediastinal adenopathy noted but better evaluated on the XXXX XXXX CT."
+  },
+  {
+    "index": 356,
+    "prediction": "a left lateral chest x-ray with an upper left chest showing a right apical le",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 357,
+    "prediction": "chest x-ray showing a thorax with two heartbeats in one lung",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 358,
+    "prediction": "chest x-ray showing ribs and sternum",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 359,
+    "prediction": "chest x-ray - chest oblique view",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 360,
+    "prediction": "chest x ray showing a normal rib, bilateral lung and chest wall",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 361,
+    "prediction": "chest x-ray of male with lung cancer",
+    "reference": "Normal chest"
+  },
+  {
+    "index": 362,
+    "prediction": "chest x-ray with a left lung",
+    "reference": "Low lung volumes without acute cardiopulmonary disease."
+  },
+  {
+    "index": 363,
+    "prediction": "ribs and chest",
+    "reference": "No acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 364,
+    "prediction": "pulmonary nodule on chest x-ray",
+    "reference": "1. Low volume study without definite acute process."
+  },
+  {
+    "index": 365,
+    "prediction": "a patient with severe lung disease has a right side of the chest and left lung",
+    "reference": "Lungs appear relatively clear on today's exam. No significant interval change since the prior study and XXXX."
+  },
+  {
+    "index": 366,
+    "prediction": "chest x-ray with pleural effusion and bilateral lung fibrosis",
+    "reference": "1. XXXX large hiatal hernia. 2. Left base atelectasis."
+  },
+  {
+    "index": 367,
+    "prediction": "chest x ray of a male with ribs, lung, and rib cage",
+    "reference": "Normal chest"
+  },
+  {
+    "index": 368,
+    "prediction": "chest x-ray showing the thoracic and oesophageal regions, eo",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 369,
+    "prediction": "chest x-ray of patient with pleural effusion pyelonephritis",
+    "reference": "Right upper lobe subsegmental atelectasis. No evidence of heart failure."
+  },
+  {
+    "index": 370,
+    "prediction": "chest x-ray of patient with left pulmonary nodule",
+    "reference": "1. Stable right middle lobe consolidation, most consistent with pneumonia."
+  },
+  {
+    "index": 371,
+    "prediction": "iv pleural effusion",
+    "reference": "No acute findings."
+  },
+  {
+    "index": 372,
+    "prediction": "iv lymph nodes seen in the left axillary area",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 373,
+    "prediction": "thoracic x-ray of a patient with a tiodothyr",
+    "reference": "1. No acute cardiopulmonary abnormality. 2. Stable bilateral emphysematous and lower lobe fibrotic changes."
+  },
+  {
+    "index": 374,
+    "prediction": "chest x-ray showing pleural effusion",
+    "reference": "No active disease.."
+  },
+  {
+    "index": 375,
+    "prediction": "a thorax with the chest wall and tetralogy of fallot in the middle",
+    "reference": "Findings suggestive of emphysema. No acute cardiopulmonary process."
+  },
+  {
+    "index": 376,
+    "prediction": "chest x-ray of patient with a history of pneumonia",
+    "reference": "Heart size normal and lungs are clear. Old healed left lateral rib fractures."
+  },
+  {
+    "index": 377,
+    "prediction": "chest x-ray showing a normal chest wall",
+    "reference": "No acute pulmonary disease."
+  },
+  {
+    "index": 378,
+    "prediction": "esophagus, erosive and infiltrative lung disease",
+    "reference": "No acute cardiopulmonary findings. ."
+  },
+  {
+    "index": 379,
+    "prediction": "chest x-ray of the right lung",
+    "reference": "No acute findings"
+  },
+  {
+    "index": 380,
+    "prediction": "chest x-rays with and without contrast",
+    "reference": "1. Stable tortuosity of the thoracic aorta. The presence of an underlying aneurysm cannot be excluded. 2. Clear lungs"
+  },
+  {
+    "index": 381,
+    "prediction": "chest x-ray of a patient with nodular pneumonia",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 382,
+    "prediction": "chest x-ray showing a left side view with two lobes of lungs in the image",
+    "reference": "No active disease."
+  },
+  {
+    "index": 383,
+    "prediction": "chest x-ray with nodule in the left lung",
+    "reference": "Heart size upper limits normal. Mediastinal silhouette and pulmonary vascularity within normal limits. No edema, focal airspace consolidation, or pneumothorax. XXXX pleural effusion versus minimal pleural thickening bilaterally."
+  },
+  {
+    "index": 384,
+    "prediction": "thoracic x-ray showing a right sided right pulmonary artery, and right ventricular",
+    "reference": "No acute cardiopulmonary abnormalities. Stable chronic lung disease. ."
+  },
+  {
+    "index": 385,
+    "prediction": "chest x-ray of a patient with left bronchiolitis",
+    "reference": "No acute pulmonary disease."
+  },
+  {
+    "index": 386,
+    "prediction": "chest x-rays of the lungs and chest wall",
+    "reference": "No acute findings."
+  },
+  {
+    "index": 387,
+    "prediction": "chest x-rays in the right-sided chest",
+    "reference": "No acute findings"
+  },
+  {
+    "index": 388,
+    "prediction": "chest x-ray of patient with chest pain and dyspnea",
+    "reference": "1. Small 3.3 mm right-sided pneumothorax."
+  },
+  {
+    "index": 389,
+    "prediction": "chest x-ray with pleural effusion",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 390,
+    "prediction": "chest x-ray of a patient",
+    "reference": "Hypoinflation with elevated left hemidiaphragm and possible left basilar infiltrate versus atelectasis. Followup evaluation is suggested in 2 to 4 weeks. IMPRESSION: Exam: CHEST 2V FRONTAL/LATERAL Date: XXXX, XXXX XXXX PM Comparison: CT chest XXXX History: Shortness of breath FINDINGS: The heart is mildly enlarged. The lungs are hypoinflated with mildly elevated left hemidiaphragm. There is patchy opacity in the left lung base which may be secondary to atelectasis and/or possible infiltrate. Increased markings are noted throughout and were present on prior CT. The study is limited secondary to moderate XXXX motion. Underlying emphysematous changes are identified. IMPRESSION: Hypoinflation with elevated left hemidiaphragm and possible left basilar infiltrate versus atelectasis. Followup evaluation is suggested in 2 to 4 weeks."
+  },
+  {
+    "index": 391,
+    "prediction": "chest x-ray with a right lung showing left pleural effusion",
+    "reference": "Heart size is normal. Lungs are clear. Minimal degenerative spurring of midthoracic spine. No effusion, pneumonia, nodules or masses."
+  },
+  {
+    "index": 392,
+    "prediction": "chest x-ray with pleural effusion",
+    "reference": "Clear lungs."
+  },
+  {
+    "index": 393,
+    "prediction": "a patient with a left thorax",
+    "reference": "No acute process."
+  },
+  {
+    "index": 394,
+    "prediction": "chest x-ray of patient with chest wall abnormality",
+    "reference": "heart size is normal, lungs are clear. No nodular masses. CT scan is more sensitive in detecting small nodules."
+  },
+  {
+    "index": 395,
+    "prediction": "chest x-ray of patient with right heart failure",
+    "reference": "Heart size normal. Lungs are clear. 5 mm right apical granuloma unchanged"
+  },
+  {
+    "index": 396,
+    "prediction": "chest x-ray of a male patient with bronchiolitis",
+    "reference": "Normal chest"
+  },
+  {
+    "index": 397,
+    "prediction": "chest x-ray of a woman with left lung involvement",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 398,
+    "prediction": "chest x-ray showing a right lung",
+    "reference": "No acute findings."
+  },
+  {
+    "index": 399,
+    "prediction": "chest x-ray with a right rib",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 400,
+    "prediction": "idiopathic right systolic dysfunction",
+    "reference": "1. Right upper lobe pulmonary nodule, XXXX granuloma."
+  },
+  {
+    "index": 401,
+    "prediction": "chest x-ray of a patient with lung disease",
+    "reference": "No active disease."
+  },
+  {
+    "index": 402,
+    "prediction": "chest x-ray showing lung nodules",
+    "reference": "1. No acute pulmonary disease."
+  },
+  {
+    "index": 403,
+    "prediction": "pleural effusion on x-ray",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 404,
+    "prediction": "chest x-ray showing large left lung and right clavicle",
+    "reference": "1 cm nodule within the lung base, seen only on the lateral view. Consider imaging correlation with XXXX abdomen study, if available. ."
+  },
+  {
+    "index": 405,
+    "prediction": "chest x-ray of a patient with ptsd",
+    "reference": "1. Minimal XXXX atelectasis in the right midlung zone versus pleural scarring in the right XXXX fissure. 2. Minimal blunting of the posterior right costophrenic XXXX, consistent with a small pleural effusion and/or pleural scarring. 3. Cardiomegaly. 4. No XXXX abnormalities as compared to prior study of earlier the same XXXX"
+  },
+  {
+    "index": 406,
+    "prediction": "a patient with left upper lobe and a right upper rib is seen",
+    "reference": "No acute abnormality."
+  },
+  {
+    "index": 407,
+    "prediction": "pt has a large number of ribs",
+    "reference": "No active disease."
+  },
+  {
+    "index": 408,
+    "prediction": "chest x-ray of patient with right sided pneumonia",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 409,
+    "prediction": "chest x-ray showing a person with severe pleural effusion",
+    "reference": "Normal heart size. Normal pulmonary vasculature. Normal mediastinal contours. Lung parenchyma is clear. No airspace disease. No pulmonary edema. No XXXX of pleural effusions. No XXXX of active cardiopulmonary disease."
+  },
+  {
+    "index": 410,
+    "prediction": "- right thorax showing severed right sternum and thigh – right-sided",
+    "reference": "Negative chest."
+  },
+  {
+    "index": 411,
+    "prediction": "chest x-ray showing bilateral chest and upper abdominal findings",
+    "reference": "Negative for acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 412,
+    "prediction": "chest x-ray of a patient with pneumonia",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 413,
+    "prediction": "chest x-ray showing left lung and right pulmonary artery",
+    "reference": "No evidence of active disease."
+  },
+  {
+    "index": 414,
+    "prediction": "chest x-ray with two thoracic resections",
+    "reference": "No acute findings."
+  },
+  {
+    "index": 415,
+    "prediction": "x-ray of chest , showing a large left lobe and two small right lobests",
+    "reference": "1. Suspected fractures of the left anterior 6th and 7th ribs, of uncertain acuity. Correlate with XXXX tenderness. 2. Low lung volumes with mild basilar atelectasis, left greater than right. ."
+  },
+  {
+    "index": 416,
+    "prediction": "chest x-ray with thoracic outlet syndrome",
+    "reference": "Borderline heart size. Calcified aorta. No active pulmonary edema or lobar pneumonia. Probable large retrocardiac hiatal hernia."
+  },
+  {
+    "index": 417,
+    "prediction": "chest x-ray, lungs and sternum",
+    "reference": "1. Interval placement of a dual-lumen dialysis catheter with the distal tip projected over the right atrium. 2. Bibasilar airspace opacities and bilateral pleural effusions."
+  },
+  {
+    "index": 418,
+    "prediction": "chest x-ray",
+    "reference": "No acute findings"
+  },
+  {
+    "index": 419,
+    "prediction": "x-ray of the chest showing the left pleura and right rib",
+    "reference": "1. No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 420,
+    "prediction": "chest x-ray of a male with a pleural effusion",
+    "reference": "Minimal perihilar opacity which could indicate an atypical pneumonia."
+  },
+  {
+    "index": 421,
+    "prediction": "chest x-ray of a patient with chest pain and pleural effusion",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 422,
+    "prediction": "chest x-ray of a male with chest pain",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 423,
+    "prediction": "chest x-ray of a patient with pericardial effusion",
+    "reference": "1. No acute radiographic cardiopulmonary process. 2. Mild hyperinflation."
+  },
+  {
+    "index": 424,
+    "prediction": "chest x-ray showing multiple pleural effusions with multiple lung nodules",
+    "reference": "Continued severe cardiomegaly and/or pericardial effusion. No acute pulmonary disease process identified."
+  },
+  {
+    "index": 425,
+    "prediction": "a lung nodule with a rib or two",
+    "reference": "No acute abnormality."
+  },
+  {
+    "index": 426,
+    "prediction": "a patient with a chest x ray demonstrates bilateral pleural effusion",
+    "reference": "Changes of chronic emphysematous lung disease without acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 427,
+    "prediction": "thoracic x-ray with normal lungs and ribs",
+    "reference": "Changes of chronic lung disease without acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 428,
+    "prediction": "eds",
+    "reference": "Heart size normal. Hyperexpanded lungs with minimal interstitial prominence. Most XXXX represents XXXX's lung. No nodules or masses. Bilateral nipple shadows seen"
+  },
+  {
+    "index": 429,
+    "prediction": "chest x-ray / chest thorax",
+    "reference": "No acute cardiopulmonary process. ."
+  },
+  {
+    "index": 430,
+    "prediction": "chest x-ray showing a large pneumothorax",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 431,
+    "prediction": "chest x-rays of patient with a left lobe inflamed",
+    "reference": "1. Heart size, mediastinal silhouette and vascularity normal. No lobar consolidation, pleural effusion. No pneumothorax. 2. Approximately 1 cm right middle lobe nodular opacity. Not XXXX showing benign type calcification, consider followup XXXX of the chest for characterization."
+  },
+  {
+    "index": 432,
+    "prediction": "chest x-ray with a right lung showing bilateral pleural effusion",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 433,
+    "prediction": "chest x-ray showing large bilateral chest and lung enlargement with right side of heart",
+    "reference": "Negative chest x-XXXX."
+  },
+  {
+    "index": 434,
+    "prediction": "chest x-rays showing small air spaces",
+    "reference": "1. No acute intrathoracic abnormality."
+  },
+  {
+    "index": 435,
+    "prediction": "chest x-ray showing left lung and aorta",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 436,
+    "prediction": "chest x-ray of patient with pneumonia",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 437,
+    "prediction": "chest x-ray with a heart necklace",
+    "reference": "1. No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 438,
+    "prediction": "a small chest x-ray revealing a large right sided pneumonia",
+    "reference": "No evidence of acute thoracic XXXX. XXXX chest radiograph is recommended if XXXX is not XXXX."
+  },
+  {
+    "index": 439,
+    "prediction": "x-ray of left lung",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 440,
+    "prediction": "chest x-ray with an upper rib",
+    "reference": "1. Low lung volumes with patchy bilateral scarring versus atelectasis. 2. Otherwise, no acute or XXXX pulmonary abnormality."
+  },
+  {
+    "index": 441,
+    "prediction": "pleural effusion",
+    "reference": "No acute cardiopulmonary abnormalities. ."
+  },
+  {
+    "index": 442,
+    "prediction": "chest x-ray showing a large enlarged pulmonary nodule",
+    "reference": "No evidence of active disease."
+  },
+  {
+    "index": 443,
+    "prediction": "chest x-ray with a lateral view of the ribs",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 444,
+    "prediction": "a patient with a thoracic infection",
+    "reference": "Negative chest."
+  },
+  {
+    "index": 445,
+    "prediction": "chest x-ray of a male patient with bilateral inguinal hernia",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 446,
+    "prediction": "x-ray of the left side of the chest",
+    "reference": "No acute cardiopulmonary disease. Critical result notification documented through Primordial."
+  },
+  {
+    "index": 447,
+    "prediction": "chest x-ray",
+    "reference": "1. Chest. Continued right hemidiaphragm elevation with right lower lobe airspace disease. 2. Right shoulder. Scapular fracture. 3. Clavicle. Acromioclavicular separation."
+  },
+  {
+    "index": 448,
+    "prediction": "a black and white image of a chest x-ray showing the upper and lower lobes and",
+    "reference": "No radiographic evidence of acute cardiopulmonary disease"
+  },
+  {
+    "index": 449,
+    "prediction": "chest x-ray with bilateral hyperthyroidism",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 450,
+    "prediction": "- lung nodules in the pulmonary region",
+    "reference": "Stable cardiomegaly. Improved aeration in the left lung base. Right basilar airspace disease is unchanged. No pneumothorax or pleural effusion. Right internal jugular central line has been removed. Left subclavian line is stable."
+  },
+  {
+    "index": 451,
+    "prediction": "chest x-ray showing two pleural effusions",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 452,
+    "prediction": "chest x-ray of a patient with right upper lobe metastasis",
+    "reference": "Calcified granuloma periphery left lung. Well-expanded and clear lungs. Mediastinal contour within normal limits. No acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 453,
+    "prediction": "chest x-ray a patient with a left sided inflamed lobe",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 454,
+    "prediction": "iv phlebitis",
+    "reference": "No acute cardiopulmonary abnormality.."
+  },
+  {
+    "index": 455,
+    "prediction": "chest x-ray of male patient with a mass in the right pleura",
+    "reference": "No acute cardiopulmonary disease"
+  },
+  {
+    "index": 456,
+    "prediction": "chest x-ray of a female patient with adenocarcinoma",
+    "reference": "No active disease."
+  },
+  {
+    "index": 457,
+    "prediction": "chest x-ray",
+    "reference": "Subtle interstitial markings bilateral, may represent mild pulmonary edema or chronic interstitial changes."
+  },
+  {
+    "index": 458,
+    "prediction": "chest x-ray of patient with a sternal crease",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 459,
+    "prediction": "chest x-ray of young woman",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 460,
+    "prediction": "chest x-ray",
+    "reference": "Small nodular opacity in left upper lung may be secondary to superimposed structures or early infiltrate. Followup evaluation in 2 weeks may be helpful."
+  },
+  {
+    "index": 461,
+    "prediction": "chest x-ray of a patient with an increased number of pneumothorax",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 462,
+    "prediction": "chest x-ray of patient with an enlarged right lobe",
+    "reference": "1. Stable normal chest x-XXXX."
+  },
+  {
+    "index": 463,
+    "prediction": "chest x-ray with involuntary ribs and multiple foci of pleural effusion",
+    "reference": "Negative for acute abnormality."
+  },
+  {
+    "index": 464,
+    "prediction": "chest x-ray of a child with bilateral pneumonia",
+    "reference": "Hyperexpanded but clear lungs."
+  },
+  {
+    "index": 465,
+    "prediction": "a chest x-ray showing a patient with pleural effusion",
+    "reference": "No active disease."
+  },
+  {
+    "index": 466,
+    "prediction": "chest x-ray showing an enlarged sternum, with large pleural effusion",
+    "reference": "No active disease."
+  },
+  {
+    "index": 467,
+    "prediction": "thoracic view of chest",
+    "reference": "Stable cardiomegaly. Improved aeration of lung bases with persistent left basilar effusion. Prominent interstitium, possibly due to mild volume overload. ."
+  },
+  {
+    "index": 468,
+    "prediction": "chest x-ray of young patient with a chest",
+    "reference": "Obscuration of the bilateral lung bases, XXXX combination of atelectasis, infiltrate, effusions."
+  },
+  {
+    "index": 469,
+    "prediction": "chest x-ray of a patient with left esophageal sarcoma",
+    "reference": "1. Severe emphysema. 2. Irregular, pleural-parenchymal opacity in left upper lobe. This may irregular pleural-parenchymal scarring, however, recommend comparison with more remote outside imaging, if available to determine long-term stability. If none are available, recommend short-term XXXX in 3 to 4 months. Evaluation of coronal and sagittal reformatted images from the outside study would also be helpful. These were not XXXX available at the outside institution. Malignancy cannot be confidently excluded on the available images."
+  },
+  {
+    "index": 470,
+    "prediction": "chest x-ray with pericardial effusion",
+    "reference": "No active disease."
+  },
+  {
+    "index": 471,
+    "prediction": "chest x-ray of patient with suspected lung cancer",
+    "reference": "Clear lungs."
+  },
+  {
+    "index": 472,
+    "prediction": "chest x-ray showing two chests with no evidence of disease",
+    "reference": "1. Pulmonary hypoinflation with bronchovascular crowding and minimal bibasilar subsegmental atelectasis."
+  },
+  {
+    "index": 473,
+    "prediction": "thoracic x-ray of a male patient with left thigh and lung",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 474,
+    "prediction": "a pleural effusion",
+    "reference": "Negative."
+  },
+  {
+    "index": 475,
+    "prediction": "chest x-ray of patient with right lung and chest wall lesions",
+    "reference": "1. Enlarged pulmonary arteries. This may be due to previous/chronic pulmonary embolism or XXXX pulmonary arterial hypertension. 2. No evidence of pneumonia or other acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 476,
+    "prediction": "chest x-ray of patient with a thoracic aneurysm",
+    "reference": "No acute cardiopulmonary abnormality. Specifically, no radiographically apparent etiology for hemoptysis."
+  },
+  {
+    "index": 477,
+    "prediction": "chest x-ray of male patient with pericardial effusion, left aorta, right",
+    "reference": "Normal exam"
+  },
+  {
+    "index": 478,
+    "prediction": "chest x ray of a man",
+    "reference": "Multiple nodules in both the left and right lungs consistent with neoplasm. Further workup could be initiated with contrasted CT of the chest, abdomen, and pelvis. Dr. XXXX XXXX I discussed the findings and further workup suggestions by telephone approximately XXXX hours XXXX, XXXX."
+  },
+  {
+    "index": 479,
+    "prediction": "chest x-ray of a young man with pulmonary hypertension",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 480,
+    "prediction": "chest x-ray of a man with a heart murmur and enlarged lung",
+    "reference": "Heart size, mediastinal silhouette, pulmonary vascularity are within normal limits. There is no lobar consolidation. No pleural effusion or pneumothorax."
+  },
+  {
+    "index": 481,
+    "prediction": "x-ray of left chest showing bilateral oblique thoracic and lateral lung masses",
+    "reference": "1. No acute abnormality. 2. Dextroscoliosis of thoracic spine unchanged. ."
+  },
+  {
+    "index": 482,
+    "prediction": "chest x ray of a patient",
+    "reference": "No active disease."
+  },
+  {
+    "index": 483,
+    "prediction": "apical mass",
+    "reference": "Radiographic findings suggestive of emphysema."
+  },
+  {
+    "index": 484,
+    "prediction": "chest x-ray with bilateral pleural effusion",
+    "reference": "Three total images. Heart size is normal. Tortuous aorta including mildly ectatic appearing ascending aorta. No comparisons are available to evaluate stability. Normal pulmonary vascularity. No focal infiltrates or pleural effusions. No pneumothorax."
+  },
+  {
+    "index": 485,
+    "prediction": "chest x-ray of a man with nodule and he has a chest X-ray",
+    "reference": "No active disease."
+  },
+  {
+    "index": 486,
+    "prediction": "chest x-ray, sternal notch in the left ribs, right upper clavicle",
+    "reference": "No acute cardiopulmonary process. ."
+  },
+  {
+    "index": 487,
+    "prediction": "x-ray of a patient with an acute upper respiratory infection",
+    "reference": "Bibasilar atelectasis. Otherwise, no acute abnormality"
+  },
+  {
+    "index": 488,
+    "prediction": "chest x-ray showing a pleural effusion",
+    "reference": "No XXXX suspicious pulmonary mass or nodule identified. However, given the presence of small nodules on the XXXX chest CT scan and patient history of prostate cancer, recommend further evaluation with XXXX scan (unless already recently performed)."
+  },
+  {
+    "index": 489,
+    "prediction": "chest x-ray of male patient with pneumonia",
+    "reference": "Normal heart size. Normal pulmonary vasculature. Normal mediastinal contours. Lung parenchyma is clear. No airspace disease. No pulmonary edema. No XXXX of pleural effusions. No XXXX of active cardiopulmonary disease. Unchanged."
+  },
+  {
+    "index": 490,
+    "prediction": "chest x-ray with a normal aorta and heart",
+    "reference": "Hyperinflated lungs, air trapping versus inspiratory XXXX."
+  },
+  {
+    "index": 491,
+    "prediction": "chest x-ray showing bilateral pulmonary and thoracic",
+    "reference": "Stable chronic changes. No acute findings. ."
+  },
+  {
+    "index": 492,
+    "prediction": "chest x-rays of patients with thoracic and right pulmonary disease",
+    "reference": "1. No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 493,
+    "prediction": "chest x-ray showing bilateral lung",
+    "reference": "1. Suspected mild patchy right upper lobe pneumonia, for which clinical correlation is recommended."
+  },
+  {
+    "index": 494,
+    "prediction": "a chest x-ray showing an anterior view of the right and left ribs with a stern",
+    "reference": "No active disease."
+  },
+  {
+    "index": 495,
+    "prediction": "chest x-ray - left chest",
+    "reference": "1. No acute pulmonary disease."
+  },
+  {
+    "index": 496,
+    "prediction": "chest x-ray showing right sided abnormalities",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 497,
+    "prediction": "chest x-ray of a patient with nodules in the right side",
+    "reference": "No acute pulmonary disease."
+  },
+  {
+    "index": 498,
+    "prediction": "thoracic x-ray showing lung enlargement",
+    "reference": "Stable, nonenlarged cardiomediastinal silhouette. Left upper lobe calcified granuloma noted. Epigastric and right upper quadrant postsurgical changes. Interval increased bilateral interstitial opacities, with probable left lower lobe infiltrate."
+  },
+  {
+    "index": 499,
+    "prediction": "chest x-ray showing a left sternal effusion",
+    "reference": "No acute pulmonary findings."
+  },
+  {
+    "index": 500,
+    "prediction": "chest x-ray showing large left lateral view of the thorax with a pleural eff",
+    "reference": "Hand 1. Minimally displaced fracture through the XXXX of the scaphoid. 2. Lucency through the base of the fourth metacarpal. This may represent a vascular XXXX or if XXXX tenderness exists over this location then fracture is more XXXX. Chest 1. No acute cardiopulmonary findings. ."
+  },
+  {
+    "index": 501,
+    "prediction": "chest x-ray with pleural effusion",
+    "reference": "Rib films. No fractures or dislocations. Chest. Heart size normal. Lungs are clear. No effusion or pneumothorax. Minimal degenerative disease thoracic spine"
+  },
+  {
+    "index": 502,
+    "prediction": "x-ray of chest with non-displaced aortic nodules",
+    "reference": "No acute cardiopulmonary abnormality.."
+  },
+  {
+    "index": 503,
+    "prediction": "the image shows a patient with right sided lung masses and pulmonary nodules in the left lobe",
+    "reference": "Heart size normal and lungs are clear."
+  },
+  {
+    "index": 504,
+    "prediction": "chest x-ray with right pleural effusion",
+    "reference": "Normal chest"
+  },
+  {
+    "index": 505,
+    "prediction": "thoracic computed tomography - lung nodule",
+    "reference": "No acute cardiopulmonary disease. No evidence of pneumonia."
+  },
+  {
+    "index": 506,
+    "prediction": "a left chest x-ray revealing thoracic",
+    "reference": "No active disease."
+  },
+  {
+    "index": 507,
+    "prediction": "chest x-ray, left lung",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 508,
+    "prediction": "an image of a patient with a chest x-ray",
+    "reference": "1. Redemonstration of elevated right hemidiaphragm with associated basilar airspace disease and effusion. 2. Ill-defined XXXX right upper lung opacities, possibly related to superimposed rib lesions versus developing pulmonary nodules. Further imaging XXXX of the chest may be indicated."
+  },
+  {
+    "index": 509,
+    "prediction": "chest x-ray with no evidence of pneumonia",
+    "reference": "No radiographic evidence of acute cardiopulmonary disease"
+  },
+  {
+    "index": 510,
+    "prediction": "chest x-ray",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 511,
+    "prediction": "chest x-ray showing bilateral lower lobes",
+    "reference": "Anticipated senescent changes with grossly clear lungs. No effusions or CHF identified. A few scant reticular opacities in right lung base XXXX hypoventilation and foci of subsegmental atelectasis. No XXXX acute abnormalities since the previous chest radiograph."
+  },
+  {
+    "index": 512,
+    "prediction": "chest x-ray showing right - side and left - sided lung suppuration",
+    "reference": "1. No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 513,
+    "prediction": "chest x-ray of an elderly patient with a chest wall hyperthenus",
+    "reference": "There is no evidence of acute cardiopulmonary disease. ."
+  },
+  {
+    "index": 514,
+    "prediction": "a patient with severe left sided heart failure with a pleural effusion opacity",
+    "reference": "No acute cardiopulmonary findings. ."
+  },
+  {
+    "index": 515,
+    "prediction": "x-ray of patient with a large lung",
+    "reference": "No active disease.."
+  },
+  {
+    "index": 516,
+    "prediction": "chest x-ray with pleura",
+    "reference": "Emphysema without acute disease."
+  },
+  {
+    "index": 517,
+    "prediction": "chest x ray of a young woman with a large smear of nodular calc",
+    "reference": "No acute infiltrate."
+  },
+  {
+    "index": 518,
+    "prediction": "chest x-rays",
+    "reference": "1. No acute pulmonary disease."
+  },
+  {
+    "index": 519,
+    "prediction": "chest x-ray of a patient",
+    "reference": "Clear lungs."
+  },
+  {
+    "index": 520,
+    "prediction": "chest x-ray with normal esophagus and no pleural effusion",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 521,
+    "prediction": "chest x-ray of the patient with emphysema",
+    "reference": "Left midlung pulmonary nodule. Comparison to a previous XXXX would be most helpful alternatively a noncontrast chest CT could be performed in the nonemergent setting for further characterization. No acute disease."
+  },
+  {
+    "index": 522,
+    "prediction": "thoracic wall",
+    "reference": "No acute cardiopulmonary finding. Specifically there is no evidence of active tuberculosis infection."
+  },
+  {
+    "index": 523,
+    "prediction": "splenic and pulmonary nodules in the lung",
+    "reference": "Unchanged loculated right pleural fusion. No change chronic interstitial lung disease."
+  },
+  {
+    "index": 524,
+    "prediction": "the right ribs appear symmetrical with the left rib displaced",
+    "reference": "1. No acute cardiopulmonary process."
+  },
+  {
+    "index": 525,
+    "prediction": "chest x-ray with a thorax and right side of the ribs",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 526,
+    "prediction": "chest x-ray with chest wall and apical adduction",
+    "reference": "Heart size is normal. No nodules, masses, or adenopathy. Calcified right paratracheal and right hilar lymph XXXX unchanged."
+  },
+  {
+    "index": 527,
+    "prediction": "x-ray of chest with a chest x - ray showing a pleural effusion",
+    "reference": "Low lung volumes with blunted costophrenic XXXX, XXXX XXXX bilateral pleural effusions."
+  },
+  {
+    "index": 528,
+    "prediction": "chest x-ray showing a right side chest wall with 2 small nodules in the left lung",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 529,
+    "prediction": "chest x-ray of patient with right sided upper respiratory tract infection",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 530,
+    "prediction": "chest x-ray of a patient with pulmonary",
+    "reference": "No acute findings"
+  },
+  {
+    "index": 531,
+    "prediction": "esophagus, heart, and abdomen – chest x-ray",
+    "reference": "1. No acute cardiopulmonary abnormality. 2. Chronic changes consistent with emphysema."
+  },
+  {
+    "index": 532,
+    "prediction": "chest x-ray",
+    "reference": "1. 7mm non calcified nodule, XXXX in appearance, recommend CT chest without contrast."
+  },
+  {
+    "index": 533,
+    "prediction": "chest x-ray with a pleural effusion",
+    "reference": "1. Small left pleural effusion."
+  },
+  {
+    "index": 534,
+    "prediction": "chest x-ray showing bilateral phrenic nerves",
+    "reference": "There are chronic changes in both lungs with appearance of emphysema. No acute airspace disease. No pulmonary edema. No XXXX of pleural effusions. Findings are grossly unchanged compared with prior chest CT from XXXX."
+  },
+  {
+    "index": 535,
+    "prediction": "chest x-ray showing bilateral pleural effusion",
+    "reference": "Heart size is normal and lungs are clear. No pneumonia."
+  },
+  {
+    "index": 536,
+    "prediction": "chest x-ray of a patient with pneumonia",
+    "reference": "Right upper lobe lung nodules. Recommend XXXX."
+  },
+  {
+    "index": 537,
+    "prediction": "chest x-ray showing an intercostal septum",
+    "reference": "Normal chest"
+  },
+  {
+    "index": 538,
+    "prediction": "chest x-ray - view of the right clavicle with right sided emphys",
+    "reference": "Bronchovascular crowding versus atelectasis within the right lung base otherwise no acute cardiopulmonary disease."
+  },
+  {
+    "index": 539,
+    "prediction": "x-ray of left sided chest with an unremarkable bilateral view",
+    "reference": "Negative chest x-XXXX."
+  },
+  {
+    "index": 540,
+    "prediction": "chest x-ray of a young male patient with obstructive sleep apnea",
+    "reference": "1. Increased opacity in the right upper lobe with XXXX associated atelectasis may represent focal consolidation or mass lesion with atelectasis. Recommend chest CT for further evaluation. 2. XXXX opacity overlying the left 5th rib may represent focal airspace disease."
+  },
+  {
+    "index": 541,
+    "prediction": "thoracic x-ray of the chest",
+    "reference": "Sternotomy XXXX are noted in XXXX. Vascular clips are noted consistent with previous coronary artery bypass graft. The previously seen central venous line catheter has been removed. A left pleural effusion remains. Underlying atelectasis is suspected. Given differences in technique, the effusion is not XXXX to be significantly different but is XXXX favored to be lower end of moderate for size. Osseous structures are remarkable for osteopenia, degenerative changes and there is some kyphosis noted to the thoracic spine."
+  },
+  {
+    "index": 542,
+    "prediction": "chest x-rays show chest aplasia",
+    "reference": "Winged right scapula consistent with supporting structure soft tissue injury. No visible fractures. No visible cardiopulmonary injury."
+  },
+  {
+    "index": 543,
+    "prediction": "thoracic x-rays showing t-tumor",
+    "reference": "1. Cardiomegaly. 2. Pleural thickening along the inferior left lateral chest wall stable since the prior examination."
+  },
+  {
+    "index": 544,
+    "prediction": "chest x-rays showing lung, esophagus, and stomach",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 545,
+    "prediction": "chest x-ray showing a pleural effusion",
+    "reference": "Heart size normal. Slight tortuous aorta. The lungs are clear. No effusions or edema"
+  },
+  {
+    "index": 546,
+    "prediction": "chest x-ray",
+    "reference": "1. Chronic appearing bibasilar pleural abnormality with possible small effusions. 2. No evidence of pneumonia. TIPS shunt visualized. ."
+  },
+  {
+    "index": 547,
+    "prediction": "apical and lateral chest x-ray of the right lung",
+    "reference": "Right upper lobe airspace consolidation Please correlate clinically for pneumonia."
+  },
+  {
+    "index": 548,
+    "prediction": "x-ray of the left side of the chest showing the right side of lung",
+    "reference": "Negative chest x-XXXX."
+  },
+  {
+    "index": 549,
+    "prediction": "chest x-ray of patient with severe lung disease",
+    "reference": "Emphysema without superimposed pneumonia."
+  },
+  {
+    "index": 550,
+    "prediction": "chest x-ray of the chest showing the right rib",
+    "reference": "XXXX onset right basal chest infection"
+  },
+  {
+    "index": 551,
+    "prediction": "chest x-ray shows no evidence of chest wall extension",
+    "reference": "1. Clear lungs."
+  },
+  {
+    "index": 552,
+    "prediction": "chest x-ray, showing chest",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 553,
+    "prediction": "chest x-ray of a patient with nodular pleura",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 554,
+    "prediction": "chest x-ray of patient with pulmonary embolism",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 555,
+    "prediction": "chest x-ray of a patient with acute pneumonia",
+    "reference": "No acute cardiopulmonary process. ."
+  },
+  {
+    "index": 556,
+    "prediction": "x-rays of the chest with ribs and clavicles in view",
+    "reference": "1. Negative for acute cardiopulmonary findings."
+  },
+  {
+    "index": 557,
+    "prediction": "chest x-rays",
+    "reference": "No acute cardiopulmonary abnormalities. ."
+  },
+  {
+    "index": 558,
+    "prediction": "x-ray of chest with no evidence of heart disease",
+    "reference": "2.1 cm nodular density in the anterior costophrenic XXXX on the lateral view, which could represent overlapping shadows or actual pulmonary nodule. Recommend followup with chest CT."
+  },
+  {
+    "index": 559,
+    "prediction": "chest x-ray of patient with acute lymphoblastic leukemia",
+    "reference": "1. No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 560,
+    "prediction": "chest x-ray showing chest wall and ribs",
+    "reference": "Heart size normal. Degenerative spurring of thoracic spine. Calcified right and left hilar lymph XXXX. There is minimal interstitial nodular opacities in the right and left midlung. This could be consistent with sarcoidosis. The small nodular opacities were present on the old CT scan from XXXX"
+  },
+  {
+    "index": 561,
+    "prediction": "a patient with chest x - ray showing pleural effusion",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 562,
+    "prediction": "chest x-ray of a woman with suspected lung cancer",
+    "reference": "No acute cardiopulmonary abnormalities. Specifically, no evidence of active tuberculosis."
+  },
+  {
+    "index": 563,
+    "prediction": "chest x-ray with bilateral sternal nodules and a right lung",
+    "reference": "1. No acute intrathoracic abnormality."
+  },
+  {
+    "index": 564,
+    "prediction": "a chest x-ray of a patient with a left lung",
+    "reference": "1. Persistent mild right upper lobe infiltrate, similar to slightly improved from XXXX. 2. Left lung grossly clear."
+  },
+  {
+    "index": 565,
+    "prediction": "a tracheal dilated lung",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 566,
+    "prediction": "chest x-ray of patient with a lung lesion",
+    "reference": "No acute process."
+  },
+  {
+    "index": 567,
+    "prediction": "chest x-rays of patient with a bilateral recurrent aortic aneurysm",
+    "reference": "No active disease."
+  },
+  {
+    "index": 568,
+    "prediction": "esophageal indentation and anal fibrosis - a chest x-",
+    "reference": "No acute radiographic cardiopulmonary process."
+  }
+]

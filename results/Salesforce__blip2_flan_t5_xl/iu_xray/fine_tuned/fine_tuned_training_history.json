@@ -1,0 +1,39 @@
+{
+  "train_loss": [
+    2.363857354662877,
+    2.059620882591817,
+    1.982423690936263
+  ],
+  "val_loss": [
+    1.8713589012949614,
+    1.7925807447254396,
+    1.732969610837468
+  ],
+  "learning_metrics": [
+    {
+      "epoch": 1,
+      "BLEU-4": 0.04316888351191326,
+      "ROUGE-L": 0.3662888418779737,
+      "METEOR": 0.3541318125927547
+    },
+    {
+      "epoch": 2,
+      "BLEU-4": 0.04263111261359916,
+      "ROUGE-L": 0.3543968144808779,
+      "METEOR": 0.33518042562031325
+    },
+    {
+      "epoch": 3,
+      "BLEU-4": 0.041956756784496674,
+      "ROUGE-L": 0.358111492716083,
+      "METEOR": 0.3318266257892541
+    }
+  ],
+  "best_epoch": 3,
+  "best_val_loss": 1.732969610837468,
+  "completed_epochs": 3,
+  "requested_epochs": 3,
+  "status": "completed",
+  "tensorboard_dir": "results/Salesforce__blip2_flan_t5_xl/iu_xray_fix/fine_tuned/tensorboard",
+  "log_file": "results/Salesforce__blip2_flan_t5_xl/iu_xray_fix/fine_tuned/fine_tuned_training_log.jsonl"
+}

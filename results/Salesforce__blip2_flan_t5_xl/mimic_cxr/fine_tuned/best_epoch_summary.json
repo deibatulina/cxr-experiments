@@ -1,0 +1,5 @@
+{
+  "best_epoch": 2,
+  "best_val_loss": 2.1240123056515774,
+  "dataset": "mimic_cxr"
+}

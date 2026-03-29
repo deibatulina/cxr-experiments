@@ -1,0 +1,2847 @@
+[
+  {
+    "index": 0,
+    "prediction": "No active disease.",
+    "reference": "1. Mild cardiomegaly. 2. Otherwise, no acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 1,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Marked cardiomegaly. 2. Increased interstitial markings in the lower lungs, edema versus chronic interstitial changes."
+  },
+  {
+    "index": 2,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Heart size normal. Right lung clear. Persistent but decreased left lower lobe atelectasis infiltrate and effusion."
+  },
+  {
+    "index": 3,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 4,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Hyperinflated appearing lungs as before with some stable slightly prominent appearing interstitial markings most XXXX representing mild chronic inflammatory change. Stable biapical chronic inflammatory change with pleural thickening. No acute airspace disease, effusions, or CHF. Stable mediastinal contour. No XXXX acute abnormalities since the previous chest radiograph."
+  },
+  {
+    "index": 5,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Normal chest"
+  },
+  {
+    "index": 6,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Heart size is normal. Lungs are clear. Minimal platelike atelectasis left base."
+  },
+  {
+    "index": 7,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "Heart size is normal and lungs are clear."
+  },
+  {
+    "index": 8,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 9,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 10,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 11,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute process."
+  },
+  {
+    "index": 12,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 13,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute or active cardiac, pulmonary or pleural disease."
+  },
+  {
+    "index": 14,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 15,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Negative chest ."
+  },
+  {
+    "index": 16,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Stable and adequately placed XXXX. 2. Prominent pulmonary vasculature, subpleural edema, and peribronchial cuffing suggestive of volume overload versus viral bronchiolitis."
+  },
+  {
+    "index": 17,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Negative chest."
+  },
+  {
+    "index": 18,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary process"
+  },
+  {
+    "index": 19,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Increasing prominence of the superior mediastinum may be secondary to enlarging thyroid mass. With increasing tortuosity of the thoracic aorta and concern for dissection, chest CT is recommended for further evaluation."
+  },
+  {
+    "index": 20,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Enlarged cardiac silhouette, possibly consistent with mild cardiomegaly versus a small pericardial effusion. 2. Mild bibasilar atelectasis and/or infiltrates with probable small bilateral pleural effusions, on the right greater than left, and pleural thickening versus loculated pleural fluid along the peripheral aspect of the right upper lobe. ."
+  },
+  {
+    "index": 21,
+    "prediction": "No active cardiopulmonary abnormality.",
+    "reference": "No evidence of acute thoracic XXXX."
+  },
+  {
+    "index": 22,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No evidence of acute cardiopulmonary process."
+  },
+  {
+    "index": 23,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Calcified right basilar nodule compatible with granuloma / histoplasmoma. A few calcified right hilar lymph XXXX. Lungs overall well expanded and clear. Unremarkable mediastinal contour. No acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 24,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 25,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No evidence of acute cardiopulmonary process."
+  },
+  {
+    "index": 26,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No radiographic evidence of acute thoracic XXXX."
+  },
+  {
+    "index": 27,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Minimal right basilar subsegmental atelectasis. Otherwise, no acute cardiopulmonary abnormality demonstrated. ."
+  },
+  {
+    "index": 28,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 29,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Negative for acute cardiopulmonary disease. No fractures identified."
+  },
+  {
+    "index": 30,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute cardiopulmonary abnormality. 2. Subcutaneous emphysema of the neck, left lateral chest, and right lateral abdominal soft tissues noted. ."
+  },
+  {
+    "index": 31,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "PA and lateral views of the chest show enlarging right hilar adenopathy. The lungs appear grossly clear. Heart size and pulmonary XXXX are normal. There is no pneumothorax. Pleural spaces are clear. There is mild thoracic spine degenerative change. FINDINGS COULD REPRESENT RESOLVING HISTOPLASMOSIS INFECTION, SARCOIDOSIS, OR MALIGNANCY XXXX AS LYMPHOMA OR PRIMARY LUNG CANCER. RECOMMEND CONTRAST-ENHANCED CHEST CT FOR FURTHER EVALUATION."
+  },
+  {
+    "index": 32,
+    "prediction": "No acute disease.",
+    "reference": "1. No acute cardiopulmonary finding. 2. Mild to moderate T10 vertebral body anterior XXXX deformity, XXXX from XXXX. Slight interval increase in XXXX loss of T11. Unchanged severe L1 XXXX deformity. If further imaging characterization is needed, recommend MRI. Findings will be conveyed to the ordering physician XXXX the Primordial communication XXXX."
+  },
+  {
+    "index": 33,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Stable cardiomegaly without gross evidence for failure or pneumonia."
+  },
+  {
+    "index": 34,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormalities. ."
+  },
+  {
+    "index": 35,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 36,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 37,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 38,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Minimal left basilar atelectasis versus infiltrate. Low lung volumes."
+  },
+  {
+    "index": 39,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 40,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 41,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Unremarkable examination of the chest."
+  },
+  {
+    "index": 42,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Left basilar airspace disease."
+  },
+  {
+    "index": 43,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No acute process."
+  },
+  {
+    "index": 44,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary findings. ."
+  },
+  {
+    "index": 45,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 46,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No focal airspace consolidation. 2. Emphysema. 3. Stable biapical opacities, possibly scarring."
+  },
+  {
+    "index": 47,
+    "prediction": "No active disease.",
+    "reference": "Heart size is normal. Lungs are clear. No evidence of tuberculosis."
+  },
+  {
+    "index": 48,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "1. No evidence of pneumothorax or pneumomediastinum. 2. Clear lungs."
+  },
+  {
+    "index": 49,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No acute abnormality."
+  },
+  {
+    "index": 50,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality.."
+  },
+  {
+    "index": 51,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No cardiopulmonary abnormality."
+  },
+  {
+    "index": 52,
+    "prediction": "No active disease.",
+    "reference": "1.Severe arthritic changes in both hips left worse than right. 2. Possible COPD but no acute pulmonary disease."
+  },
+  {
+    "index": 53,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. There is cardiomegaly. No pulmonary edema. Lungs symmetrically aerated and clear of infiltrate or consolidation. No pneumothorax or pleural effusion. S-shaped curvature thoracic spine noted. 2. Left upper quadrant peripherally calcified focus 3.8 XXXX XXXX splenic and origin and may represent benign cyst but is not XXXX to be further localized or characterized on XXXX film. Vascular aneurysm would be possible but thought less XXXX."
+  },
+  {
+    "index": 54,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "1. Clear lungs."
+  },
+  {
+    "index": 55,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute cardiopulmonary disease."
+  },
+  {
+    "index": 56,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Normal chest."
+  },
+  {
+    "index": 57,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Heart size is within normal limits. Coronary artery stent noted. No edema. No focal consolidation, pleural effusion or pneumothorax. Mild nonspecific biapical pleural thickening. Clips from prior cholecystectomy are noted."
+  },
+  {
+    "index": 58,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 59,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No evidence of active disease."
+  },
+  {
+    "index": 60,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormalities are seen. END OF REPORT."
+  },
+  {
+    "index": 61,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute findings. Stable cardiac enlargement."
+  },
+  {
+    "index": 62,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormality.."
+  },
+  {
+    "index": 63,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 64,
+    "prediction": "No active disease.",
+    "reference": "No evidence of acute cardiopulmonary process. Stable appearance of the chest."
+  },
+  {
+    "index": 65,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Stable normal heart size. Calcified aorta. Eventration right diaphragm. Scarring in the pulmonary apices. No acute findings. Thoracic spondylosis."
+  },
+  {
+    "index": 66,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary findings"
+  },
+  {
+    "index": 67,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Negative chest. ."
+  },
+  {
+    "index": 68,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 69,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "Bilateral large pleural effusion, possibly from pleuritis or sympathetic from the known pancreatitis."
+  },
+  {
+    "index": 70,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary disease"
+  },
+  {
+    "index": 71,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No active cardiopulmonary disease. 2. Left humeral head is positioned anterior and inferior to the glenoid, concerning for anterior shoulder subluxation. This is XXXX related to the muscular dystrophy and decreased shoulder muscles support. 3. XXXX postoperative changes from the spinal XXXX placement."
+  },
+  {
+    "index": 72,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 73,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 74,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Comparison XXXX, XXXX Hyperexpansion and changes of COPD as before. Calcified right lower lung nodule compatible with histoplasmoma as before. Lungs are overall clear. Mediastinal contour stable. No XXXX acute abnormalities since the previous examination.."
+  },
+  {
+    "index": 75,
+    "prediction": "No acute cardiopulmonary findings.",
+    "reference": "No evidence of acute cardiopulmonary process. Mediastinal and hilar adenopathy compatible with patient's known sarcoidosis."
+  },
+  {
+    "index": 76,
+    "prediction": "No active cardiopulmonary abnormality.",
+    "reference": "Low lung volumes with streaky bibasilar opacities, XXXX subsegmental atelectasis over infiltrate."
+  },
+  {
+    "index": 77,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "The heart size and cardiomediastinal silhouette are within normal limits. Pulmonary vasculature appears normal. Minimal blunting of the lateral sulci bilaterally XXXX reflects pleural thickening or scarring, no dependent pleural fluid posteriorly. Minimal right base subsegmental atelectasis. No lobar consolidation. No pneumothorax."
+  },
+  {
+    "index": 78,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 79,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary findings"
+  },
+  {
+    "index": 80,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "There is no radiographic evidence of acute cardiopulmonary disease."
+  },
+  {
+    "index": 81,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Stable blunting of right costophrenic XXXX with small pleural effusion versus thickening and associated healed right rib deformities."
+  },
+  {
+    "index": 82,
+    "prediction": "No active disease.",
+    "reference": "No acute abnormality."
+  },
+  {
+    "index": 83,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 84,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Stable position of the left-sided hemodialysis catheter otherwise no acute cardiopulmonary disease."
+  },
+  {
+    "index": 85,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 86,
+    "prediction": "No acute cardiopulmonary findings.",
+    "reference": "Low lung volumes with grossly clear lungs."
+  },
+  {
+    "index": 87,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. No acute cardiopulmonary abnormalities. 2. No displaced rib fractures are seen. ."
+  },
+  {
+    "index": 88,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 89,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Mild cardiomegaly, with subsegmental atelectasis in the right lower lobe."
+  },
+  {
+    "index": 90,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Small bilateral pleural effusions."
+  },
+  {
+    "index": 91,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary disease. ."
+  },
+  {
+    "index": 92,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "XXXX opacity projecting over the left midlung. Comparison examinations would be useful. If no comparison examinations exist, XXXX would be helpful for further evaluation. ."
+  },
+  {
+    "index": 93,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "XXXX XXXX right pleural effusion."
+  },
+  {
+    "index": 94,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 95,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Negative for acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 96,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute abnormality. ."
+  },
+  {
+    "index": 97,
+    "prediction": "No active disease.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 98,
+    "prediction": "No active disease.",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 99,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Lobulated anterior mediastinal opacity on the lateral view, possibly consistent with a tortuous/ectatic thoracic aorta versus an anterior mediastinal mass. Contrast-enhanced XXXX examination would XXXX to further evaluate if clinically indicated. 2. Mild cardiomegaly with findings of chronic obstructive pulmonary disease."
+  },
+  {
+    "index": 100,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 101,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute cardiopulmonary abnormality. 2. Cardiomegaly. ."
+  },
+  {
+    "index": 102,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No evidence of thoracic injury."
+  },
+  {
+    "index": 103,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality. ."
+  },
+  {
+    "index": 104,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "Heart size is normal. Multiple scattered small 4 mm nodules throughout the chest. These most XXXX represent calcified small granulomas. A low KV film XXXX demonstrate these are probably calcified."
+  },
+  {
+    "index": 105,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary findings. ."
+  },
+  {
+    "index": 106,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 107,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Heart size normal. Lungs are clear."
+  },
+  {
+    "index": 108,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 109,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Elevated diaphragms with atelectasis in the bases. Normal heart size. Mild spondylosis."
+  },
+  {
+    "index": 110,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Small focal opacity in the left upper lobe, differential diagnosis includes subsegmental atelectasis, small infiltrate, scarring, followup recommended. No definite pleural effusion seen. Heart size within normal limits, no typical findings of pulmonary edema. Mediastinal and left hilar calcifications suggest a previous granulomatous process."
+  },
+  {
+    "index": 111,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 112,
+    "prediction": "No acute disease.",
+    "reference": "No focal lung consolidation. COPD."
+  },
+  {
+    "index": 113,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "1. No acute pulmonary abnormality."
+  },
+  {
+    "index": 114,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute findings."
+  },
+  {
+    "index": 115,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 116,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary findings"
+  },
+  {
+    "index": 117,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No radiographic evidence of acute cardiopulmonary disease."
+  },
+  {
+    "index": 118,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormalities. No visualized rib fractures."
+  },
+  {
+    "index": 119,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No evidence of active disease."
+  },
+  {
+    "index": 120,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormality. ."
+  },
+  {
+    "index": 121,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 122,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 123,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "1. Cardiomegaly and small left pleural effusion versus pleural thickening 2. Streaky and patchy bibasilar opacities may be compatible with atelectasis versus consolidation, aspiration, clinical correlation recommended"
+  },
+  {
+    "index": 124,
+    "prediction": "No active cardiopulmonary abnormality.",
+    "reference": "1. Increased size of left pneumothorax, with XXXX partial collapse of the left upper and lower lobes. 2. Small left pleural effusion/hemothorax."
+  },
+  {
+    "index": 125,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "1. No acute pulmonary disease."
+  },
+  {
+    "index": 126,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. No focal pulmonary consolidation or effusion. Minimal left basilar atelectasis. 2. Bilateral pulmonary nodules. These were not present on the prior study and may represent sequela of infection, but could represent neoplastic process. Correlation with history of primary malignancy is recommended. Further evaluation XXXX of the thorax could be performed, if clinically indicated."
+  },
+  {
+    "index": 127,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 128,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 129,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Low lung volumes, otherwise no acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 130,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. No acute pulmonary process. 2. Large hiatal hernia. ."
+  },
+  {
+    "index": 131,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Exam somewhat limited, costophrenic XXXX excluded. 2. Stable mild cardiomegaly. 3. Clear lungs."
+  },
+  {
+    "index": 132,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Comparison XXXX. No suspicious appearing lung nodules identified. Well-expanded and clear lungs. Mediastinal contour within normal limits. No acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 133,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "There is XXXX peribronchial cuffing noted on the lateral view with fullness in the perihilar regions, more conspicuous than on the prior study. These can be manifestations of reactive airways disease. There is no lobar pneumonia. Lungs are mildly hyperinflated."
+  },
+  {
+    "index": 134,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute abnormality of the chest. 2. XXXX deformities of T12 and L1, unchanged XXXX abdomen XXXX, XXXX abdomen XXXX, XXXX. 3. Fracture of right proximal humerus, incompletely evaluated. ."
+  },
+  {
+    "index": 135,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 136,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Small 3.3 mm right-sided pneumothorax."
+  },
+  {
+    "index": 137,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute findings"
+  },
+  {
+    "index": 138,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. No definite evidence of metastatic disease. 2. Age-indeterminate XXXX deformity of T6, XXXX since study dated XXXX, XXXX. ."
+  },
+  {
+    "index": 139,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Increased size of density in the left cardiophrenic XXXX. Primary differential considerations include increased size of prominent epicardial fat, pericardial mass, pleural mass or cardiac aneurysm. CT chest with contrast is recommended. These findings and recommendations were discussed XXXX. XXXX by Dr. XXXX XXXX telephone at XXXX p.m. XXXX/XXXX. Dr. XXXX<XXXX>technologist receipt of the results."
+  },
+  {
+    "index": 140,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 141,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No active disease.. No visible cardiopulmonary injuries."
+  },
+  {
+    "index": 142,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Continued elevation of the left hemidiaphragm. 2. No evidence of active disease."
+  },
+  {
+    "index": 143,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality.."
+  },
+  {
+    "index": 144,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 145,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute preoperative findings."
+  },
+  {
+    "index": 146,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 147,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No evidence of active disease."
+  },
+  {
+    "index": 148,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Chest. No acute cardiopulmonary findings. 2. Right knee. Stable advanced degenerative changes, most severe in the medial compartment."
+  },
+  {
+    "index": 149,
+    "prediction": "No acute cardiopulmonary process.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 150,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 151,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute cardiopulmonary process. ."
+  },
+  {
+    "index": 152,
+    "prediction": "No active disease.",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 153,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Chest. No visible active cardiopulmonary disease. 2. Left hip. Advanced posttraumatic osteoarthritis."
+  },
+  {
+    "index": 154,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "1. Findings consistent with emphysema with interstitial thickening. This could be due to edema superimposed on emphysema or pneumonitis or fibrosis. XXXX chest if warranted clinically given recent onset of dyspnea. ."
+  },
+  {
+    "index": 155,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No evidence of active disease."
+  },
+  {
+    "index": 156,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute abnormality. 2. No evidence of pulmonary tuberculosis."
+  },
+  {
+    "index": 157,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 158,
+    "prediction": "No acute cardiopulmonary findings.",
+    "reference": "No comparison chest x-XXXX. Well-expanded and clear lungs. Mediastinal contour within normal limits. No acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 159,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 160,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Low volume study without definite acute process. 2. Mild cardiomegaly."
+  },
+  {
+    "index": 161,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 162,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Normal chest."
+  },
+  {
+    "index": 163,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Heart size normal. Lungs clear. Calcified 5 mm right upper lobe granuloma."
+  },
+  {
+    "index": 164,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 165,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Mild hyperinflation. Scattered chronic appearing irregular interstitial markings with no focal alveolar consolidation. No definite pleural effusion seen. Heart size near top normal limits, aortic ectasia/tortuosity similar to prior. Right hemidiaphragm eventration. No typical findings of pulmonary edema."
+  },
+  {
+    "index": 166,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary findings. ."
+  },
+  {
+    "index": 167,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Limited examination with stable cardiomegaly and low lung volumes without acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 168,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Persistent and biapical opacities. No acute pulmonary disease identified."
+  },
+  {
+    "index": 169,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Continued slight cardiomegaly with no evidence for failure or pneumonia."
+  },
+  {
+    "index": 170,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Stable appearance of the chest without acute abnormality noted."
+  },
+  {
+    "index": 171,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary finding."
+  },
+  {
+    "index": 172,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. No acute cardiopulmonary abnormality. 2. Mild cardiomegaly, stable."
+  },
+  {
+    "index": 173,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary finding."
+  },
+  {
+    "index": 174,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "13 - 14 mm ring-shaped opacity with central lucency, seen with certainty on PA view only, projects over right midlung. Uncertain if this represent something within the lung or external to the patient. There is also a 5 mm nodular opacity projecting over the left upper lung at the level of AP XXXX. These findings could be further evaluated XXXX if clinically indicated. No acute airspace disease. Mediastinal contour normal limits. No effusions."
+  },
+  {
+    "index": 175,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 176,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Stable right basilar scarring and right pleural thickening"
+  },
+  {
+    "index": 177,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Large left pleural effusion with minimal residual left lung aeration. Small right pleural effusion. Right lung bronchovascular crowding and indistinct vascular margination which may be secondary to crowding, infiltrates or pulmonary edema. Limited assessment of heart size due to obscured heart XXXX."
+  },
+  {
+    "index": 178,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 179,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "There is cardiomegaly. Lateral view somewhat limited however small bilateral pleural effusions suspected. There is central vascular congestion."
+  },
+  {
+    "index": 180,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 181,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Emphysema without superimposed pneumonia."
+  },
+  {
+    "index": 182,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No focal alveolar consolidation, no definite pleural effusion seen, left hilar calcifications and dense nodule in the left lung suggest a previous granulomatous process. Considering differences in technical factors XXXX stable cardiomediastinal silhouette with normal heart size, bronchovascular crowding without typical findings of pulmonary edema."
+  },
+  {
+    "index": 183,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No significant change compared to prior. Bibasilar airspace disease may represent infection or mild edema."
+  },
+  {
+    "index": 184,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary process. ."
+  },
+  {
+    "index": 185,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Emphysema without acute disease."
+  },
+  {
+    "index": 186,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 187,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Improved right mid lung and right basilar consolidation. 2. Decreasing right pleural effusion."
+  },
+  {
+    "index": 188,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Low lung volumes. No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 189,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 190,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 191,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Central pulmonary vascular congestion without XXXX edema, consolidation. XXXX bilateral pleural effusions."
+  },
+  {
+    "index": 192,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No acute cardiopulmonary abnormality. No radiographic evidence of metastatic disease in the chest."
+  },
+  {
+    "index": 193,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 194,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Chest 1. No acute cardiopulmonary findings. Abdomen 1. Nonspecific bowel XXXX pattern without evidence of obstruction."
+  },
+  {
+    "index": 195,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 196,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Small calcification right lung base with appearance of old granulomatous disease. Also small perihilar calcified lymph XXXX. Lungs are clear. No active parenchymal disease. No XXXX of pleural effusions. No pulmonary edema. Normal heart size. No XXXX of active cardiopulmonary disease. Unchanged."
+  },
+  {
+    "index": 197,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 198,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Elevated left hemidiaphragm. No evidence of active disease."
+  },
+  {
+    "index": 199,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 200,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No comparison chest x-XXXX. Well-expanded and clear lungs. Mediastinal contour within normal limits. No acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 201,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No radiographic evidence of acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 202,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 203,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 204,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Hyperexpanded lungs without focal air space disease."
+  },
+  {
+    "index": 205,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Negative acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 206,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 207,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 208,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary disease"
+  },
+  {
+    "index": 209,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "XXXX of COPD and interstitial lung disease. No definite pneumonia. There does appear to be progression of changes since XXXX."
+  },
+  {
+    "index": 210,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 211,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "The heart size and cardiomediastinal silhouette are stable and within normal limits. Pulmonary vasculature appears normal. There is no focal air space consolidation. No pleural effusion or pneumothorax."
+  },
+  {
+    "index": 212,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Focal area of XXXX scarring or atelectasis within the lingula. No acute pulmonary process."
+  },
+  {
+    "index": 213,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Ill-defined oblong opacity in the lateral right base. This may represent pleural based process. The exact XXXX is unclear. Followup exam is suggested to confirm clearing or stability."
+  },
+  {
+    "index": 214,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Chest. No active disease. 2. Right shoulder. Healing scapular fracture."
+  },
+  {
+    "index": 215,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Low lung volumes with bibasilar streaky opacities most XXXX representing subsegmental atelectasis."
+  },
+  {
+    "index": 216,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 217,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 218,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Stable cardiomegaly and persistent minimal bibasilar atelectasis."
+  },
+  {
+    "index": 219,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute abnormality identified."
+  },
+  {
+    "index": 220,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Normal chest"
+  },
+  {
+    "index": 221,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Small streaky opacity lateral right lung, subsegmental atelectasis versus scarring."
+  },
+  {
+    "index": 222,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No acute abnormality."
+  },
+  {
+    "index": 223,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Vague density in right XXXX, XXXX related to scapular tip and superimposed ribs. Consider oblique images to exclude true nodule. 2. No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 224,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Stable left lung consolidation, possibly infectious pneumonia and/or aspiration. Recommend followup radiographs after treatment to ensure complete resolution. 2. Stable mild residual medial right basilar airspace disease."
+  },
+  {
+    "index": 225,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 226,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 227,
+    "prediction": "No acute disease.",
+    "reference": "heart size normal. Lungs clear. Calcified 5 mm right midlung granuloma."
+  },
+  {
+    "index": 228,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Heart size, mediastinal silhouette and pulmonary vascularity are within normal limits. Lungs are well expanded with no focal infiltrate or pleural effusion. No pneumothorax."
+  },
+  {
+    "index": 229,
+    "prediction": "No acute disease.",
+    "reference": "No acute cardiopulmonary abnormality. ."
+  },
+  {
+    "index": 230,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Low lung volumes with increased lung markings particularly in the left perihilar region XXXX related to history of bronchitis. No acute infiltrate."
+  },
+  {
+    "index": 231,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute pulmonary abnormality. 2. Mild cardiomegaly without pulmonary edema."
+  },
+  {
+    "index": 232,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 233,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Heart size, mediastinal silhouette, pulmonary vascularity are within normal limits. There is no focal air space consolidation to suggest acute pneumonia or active tuberculous infection. No pleural effusion or pneumothorax."
+  },
+  {
+    "index": 234,
+    "prediction": "No acute disease.",
+    "reference": "Left knee. Moderately severe medial joint space narrowing and spurring. Chest. Heart size normal. Lungs clear."
+  },
+  {
+    "index": 235,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Lungs are clear. No parenchymal infiltrates. No pulmonary edema. No XXXX of pleural effusions. No XXXX of acute cardiopulmonary disease. normal"
+  },
+  {
+    "index": 236,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Negative chest x-XXXX. No evidence of pneumonia."
+  },
+  {
+    "index": 237,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No acute findings"
+  },
+  {
+    "index": 238,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 239,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Postsurgical and postradiation changes on the left with no acute abnormality."
+  },
+  {
+    "index": 240,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "Mild blunting left costophrenic recess, possibly mild atelectasis or scarring."
+  },
+  {
+    "index": 241,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 242,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Persistent but decreasing basilar infiltrates atelectasis. Possible small effusions. Sternotomy. Heart size normal. Left IJ catheter tip mid SVC"
+  },
+  {
+    "index": 243,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 244,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 245,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Cardiomegaly and findings of prior asbestos exposure without interval acute cardiopulmonary findings."
+  },
+  {
+    "index": 246,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 247,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Bullous emphysema and interstitial fibrosis. 2. Probably scarring in the left apex, although difficult to exclude a cavitary lesion. 3. Opacities in the bilateral upper lobes could represent scarring, however the absence of comparison exam, recommend short interval followup radiograph or CT thorax to document resolution."
+  },
+  {
+    "index": 248,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 249,
+    "prediction": "No active cardiopulmonary abnormalities.",
+    "reference": "No acute findings"
+  },
+  {
+    "index": 250,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute or active cardiac, pulmonary or pleural disease."
+  },
+  {
+    "index": 251,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No focal lung opacity, pleural effusion of pneumothorax."
+  },
+  {
+    "index": 252,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Mild cardiomegaly. Densely calcified aorta. Prominence of the pulmonary outflow and XXXX most XXXX indicates enlarged pulmonary arteries and raise concern for pulmonary artery hypertension. There is no overt edema. The right diaphragm is elevated, there are small right and XXXX left pleural effusions. No pneumothorax."
+  },
+  {
+    "index": 253,
+    "prediction": "No active cardiopulmonary abnormality.",
+    "reference": "Stable enlarged cardiomediastinal silhouette. Tortuous aorta. Low lung volumes and left basilar bandlike opacities suggestive of scarring or atelectasis. No overt edema. Question small right pleural effusion versus pleural thickening. No visible pneumothorax."
+  },
+  {
+    "index": 254,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary disease. ."
+  },
+  {
+    "index": 255,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 256,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "1. Left lower lobe pneumonia and minimal scarring or subsegmental atelectasis in the right lung base."
+  },
+  {
+    "index": 257,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiothoracic abnormality."
+  },
+  {
+    "index": 258,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 259,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Interstitial markings bilaterally, pulmonary fibrosis, unchanged. ."
+  },
+  {
+    "index": 260,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "no cardiomegaly with bilateral small pleural effusions. Decubitus x-XXXX XXXX be informative. No evidence of pneumonia, nodules, or masses."
+  },
+  {
+    "index": 261,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Clear lungs."
+  },
+  {
+    "index": 262,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Normal chest"
+  },
+  {
+    "index": 263,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute radiographic cardiopulmonary process. ."
+  },
+  {
+    "index": 264,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Heart size within normal limits. Dense mitral annular calcification. Tortuous and ectatic, atherosclerotic aorta. No edema. Lungs mildly hyperinflated. There is left basilar scarring. No XXXX consolidation, pleural effusion or pneumothorax."
+  },
+  {
+    "index": 265,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Right lower lobe pulmonary nodule. XXXX for better characterization. 2. No acute pulmonary process."
+  },
+  {
+    "index": 266,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Interval postsurgical changes of XXXX sternotomy without acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 267,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Stable normal cardiac size and contour, unremarkable mediastinal silhouette. Normal pulmonary XXXX and interstitium. Lungs clear, no airspace disease, pleural effusion, or pneumothorax. No active/acute cardiopulmonary disease."
+  },
+  {
+    "index": 268,
+    "prediction": "No acute disease.",
+    "reference": "Right upper lobe pneumonia. Consideration may be given for followup chest x-XXXX, following appropriate therapy."
+  },
+  {
+    "index": 269,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 270,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Heart size is normal. Lungs are clear. Overexpanded lungs suggests emphysema. No nodules masses or effusions"
+  },
+  {
+    "index": 271,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. There is minimal streaky opacity in the posterior lungs, possibly cyst, scarring, or pneumonia. 2. Heart size and pulmonary XXXX appear normal 3. Mediastinal contours are normal"
+  },
+  {
+    "index": 272,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 273,
+    "prediction": "No acute disease.",
+    "reference": "No acute cardiopulmonary abnormality.."
+  },
+  {
+    "index": 274,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute findings."
+  },
+  {
+    "index": 275,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Findings most suggestive of infectious or reactive small airways disease. No focal pneumonia."
+  },
+  {
+    "index": 276,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "1. XXXX indeterminant small nodular opacities. May be granulomas or bone islands. However, XXXX is recommended given the history of malignancy. 2. Otherwise no acute cardiac or pulmonary disease process identified."
+  },
+  {
+    "index": 277,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute cardiopulmonary findings."
+  },
+  {
+    "index": 278,
+    "prediction": "No active disease.",
+    "reference": "Heart size is normal and lungs are clear."
+  },
+  {
+    "index": 279,
+    "prediction": "No active disease.",
+    "reference": "Right middle lobe infiltrate consistent with pneumonia."
+  },
+  {
+    "index": 280,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No acute or active cardiac or pulmonary disease process. Cannot exclude small pleural effusions."
+  },
+  {
+    "index": 281,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 282,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Emphysematous changes. 2. Resolution of prior right midlung infiltrate."
+  },
+  {
+    "index": 283,
+    "prediction": "No acute disease.",
+    "reference": "No acute cardiopulmonary findings. ."
+  },
+  {
+    "index": 284,
+    "prediction": "No active disease.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 285,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute cardiopulmonary abnormality. 2. Mild age indeterminate anterior wedging at the T11 level."
+  },
+  {
+    "index": 286,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Left base airspace disease. 2. Left venous catheter with tip in the right atrium."
+  },
+  {
+    "index": 287,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Mild XXXX XXXX opacities compatible with residual atelectasis/scarring."
+  },
+  {
+    "index": 288,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 289,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Negative for acute cardiopulmonary findings."
+  },
+  {
+    "index": 290,
+    "prediction": "No acute disease.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 291,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Emphysema without acute disease."
+  },
+  {
+    "index": 292,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Right-sided perihilar calcified lymph XXXX and infracarinal calcified lymph XXXX. These XXXX represent previous granulomatous disease. Lung parenchyma is clear. No airspace disease. No pulmonary edema. Normal heart size. No XXXX of pleural effusions. No XXXX of active cardiopulmonary disease."
+  },
+  {
+    "index": 293,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary finding."
+  },
+  {
+    "index": 294,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 295,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 296,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. No acute cardiopulmonary findings. 2. Age-indeterminate mild anterior wedge deformity of a lower thoracic or upper lumbar vertebra. Correlate for focal tenderness and with prior imaging, if possible."
+  },
+  {
+    "index": 297,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 298,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 299,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 300,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Clear lungs. No acute chest findings. 2. Peripheral vascular disease."
+  },
+  {
+    "index": 301,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. No evidence of active disease."
+  },
+  {
+    "index": 302,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 303,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Heart size upper limits of normal. 2. Small left pleural effusion with associated airspace disease."
+  },
+  {
+    "index": 304,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality. Prior granulomatous infection."
+  },
+  {
+    "index": 305,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary disease. ."
+  },
+  {
+    "index": 306,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 307,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 308,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Clear lungs."
+  },
+  {
+    "index": 309,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 310,
+    "prediction": "No active disease.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 311,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Mildly hyperexpanded lungs without acute focal infiltrate."
+  },
+  {
+    "index": 312,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "1. No acute pulmonary disease."
+  },
+  {
+    "index": 313,
+    "prediction": "No active cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 314,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No evidence of acute cardiopulmonary disease."
+  },
+  {
+    "index": 315,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 316,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "Focal airspace disease in the right middle lobe. This is most concerning for pneumonia. Recommend follow up to ensure resolution."
+  },
+  {
+    "index": 317,
+    "prediction": "No active disease.",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 318,
+    "prediction": "No active cardiopulmonary abnormality.",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 319,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 320,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Focal density overlying the right first rib and medial right clavicle. This could be bony in origin but an underlying pulmonary lesion cannot be excluded. No prior images are currently available for comparison. If outside images are available comparison is recommended. Otherwise XXXX scan of the chest."
+  },
+  {
+    "index": 321,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Probable COPD and old granulomatous disease."
+  },
+  {
+    "index": 322,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Normal chest"
+  },
+  {
+    "index": 323,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "There is no radiographic evidence of acute cardiopulmonary disease."
+  },
+  {
+    "index": 324,
+    "prediction": "No acute cardiopulmonary findings.",
+    "reference": "Borderline cardiac enlargement. Vascular congestion without overt pulmonary edema. Basilar atelectasis with XXXX posterior recess pleural effusions. Overall, findings of mild volume overload."
+  },
+  {
+    "index": 325,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Low lung volumes, otherwise clear."
+  },
+  {
+    "index": 326,
+    "prediction": "No acute cardiopulmonary findings.",
+    "reference": "1. XXXX densities in left base may be compatible with scarring or subsegmental atelectasis 2. Abnormal opacity in the right base XXXX due at XXXX in part to atelectasis with right hemidiaphragm eventration, question small right pleural effusion"
+  },
+  {
+    "index": 327,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 328,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "1. No finding suggestive of active disease."
+  },
+  {
+    "index": 329,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Widened upper mediastinal silhouette. May represent vascular shadows exaggerated by supine and very lordotic imaging technique. However, the setting of XXXX, upper mediastinal hematoma not excluded. Depending on clinical suspicion and mechanism further investigation may be warranted. 2. Mild cardiomegaly appears stable. No edema. No layering pleural effusions, focal consolidation or pneumothorax."
+  },
+  {
+    "index": 330,
+    "prediction": "No acute cardiopulmonary findings.",
+    "reference": "Emphysema without acute disease."
+  },
+  {
+    "index": 331,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 332,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute process."
+  },
+  {
+    "index": 333,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Stable chest x-XXXX, without acute cardiopulmonary findings."
+  },
+  {
+    "index": 334,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "Normal heart size. Normal pulmonary vasculature. Normal mediastinal contours. Lung parenchyma is clear. No airspace disease. No pulmonary edema. No XXXX of pleural effusions. No XXXX of active tuberculosis. No XXXX of active cardiopulmonary disease."
+  },
+  {
+    "index": 335,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No x-XXXX evidence of metastatic disease."
+  },
+  {
+    "index": 336,
+    "prediction": "No active cardiopulmonary abnormality.",
+    "reference": "Normal heart size. Normal pulmonary vasculature. Normal mediastinal contours. Lung parenchyma is clear. No airspace disease. No pulmonary edema. No XXXX of pleural effusions. No XXXX of active cardiopulmonary disease."
+  },
+  {
+    "index": 337,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 338,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Lines and tubes as above. Moderate-to-large left pleural effusion, with adjacent airspace disease or atelectasis."
+  },
+  {
+    "index": 339,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormalities. Emphysematous changes of the lungs."
+  },
+  {
+    "index": 340,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 341,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 342,
+    "prediction": "No active cardiopulmonary abnormality.",
+    "reference": "Chronic interstitial and bullous disease. No acute findings."
+  },
+  {
+    "index": 343,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 344,
+    "prediction": "No active cardiopulmonary abnormality.",
+    "reference": "No lobar pneumonia is present."
+  },
+  {
+    "index": 345,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Hyperinflated lungs, air trapping versus inspiratory XXXX."
+  },
+  {
+    "index": 346,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 347,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary disease"
+  },
+  {
+    "index": 348,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 349,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 350,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No evidence of acute cardiopulmonary process."
+  },
+  {
+    "index": 351,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 352,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 353,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute pulmonary findings. ."
+  },
+  {
+    "index": 354,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Low lung volumes with bronchovascular crowding, bibasilar opacities XXXX due at XXXX in part to atelectasis, infiltrates, pulmonary edema difficult to entirely exclude."
+  },
+  {
+    "index": 355,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Small left pleural effusion. 2. Mediastinal adenopathy noted but better evaluated on the XXXX XXXX CT."
+  },
+  {
+    "index": 356,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 357,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 358,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 359,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 360,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 361,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Normal chest"
+  },
+  {
+    "index": 362,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Low lung volumes without acute cardiopulmonary disease."
+  },
+  {
+    "index": 363,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 364,
+    "prediction": "No acute disease.",
+    "reference": "1. Low volume study without definite acute process."
+  },
+  {
+    "index": 365,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Lungs appear relatively clear on today's exam. No significant interval change since the prior study and XXXX."
+  },
+  {
+    "index": 366,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "1. XXXX large hiatal hernia. 2. Left base atelectasis."
+  },
+  {
+    "index": 367,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Normal chest"
+  },
+  {
+    "index": 368,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 369,
+    "prediction": "No active cardiopulmonary abnormality.",
+    "reference": "Right upper lobe subsegmental atelectasis. No evidence of heart failure."
+  },
+  {
+    "index": 370,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Stable right middle lobe consolidation, most consistent with pneumonia."
+  },
+  {
+    "index": 371,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute findings."
+  },
+  {
+    "index": 372,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 373,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. No acute cardiopulmonary abnormality. 2. Stable bilateral emphysematous and lower lobe fibrotic changes."
+  },
+  {
+    "index": 374,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No active disease.."
+  },
+  {
+    "index": 375,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Findings suggestive of emphysema. No acute cardiopulmonary process."
+  },
+  {
+    "index": 376,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Heart size normal and lungs are clear. Old healed left lateral rib fractures."
+  },
+  {
+    "index": 377,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute pulmonary disease."
+  },
+  {
+    "index": 378,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary findings. ."
+  },
+  {
+    "index": 379,
+    "prediction": "No acute disease.",
+    "reference": "No acute findings"
+  },
+  {
+    "index": 380,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Stable tortuosity of the thoracic aorta. The presence of an underlying aneurysm cannot be excluded. 2. Clear lungs"
+  },
+  {
+    "index": 381,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 382,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 383,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Heart size upper limits normal. Mediastinal silhouette and pulmonary vascularity within normal limits. No edema, focal airspace consolidation, or pneumothorax. XXXX pleural effusion versus minimal pleural thickening bilaterally."
+  },
+  {
+    "index": 384,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormalities. Stable chronic lung disease. ."
+  },
+  {
+    "index": 385,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute pulmonary disease."
+  },
+  {
+    "index": 386,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute findings."
+  },
+  {
+    "index": 387,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute findings"
+  },
+  {
+    "index": 388,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Small 3.3 mm right-sided pneumothorax."
+  },
+  {
+    "index": 389,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 390,
+    "prediction": "No acute disease.",
+    "reference": "Hypoinflation with elevated left hemidiaphragm and possible left basilar infiltrate versus atelectasis. Followup evaluation is suggested in 2 to 4 weeks. IMPRESSION: Exam: CHEST 2V FRONTAL/LATERAL Date: XXXX, XXXX XXXX PM Comparison: CT chest XXXX History: Shortness of breath FINDINGS: The heart is mildly enlarged. The lungs are hypoinflated with mildly elevated left hemidiaphragm. There is patchy opacity in the left lung base which may be secondary to atelectasis and/or possible infiltrate. Increased markings are noted throughout and were present on prior CT. The study is limited secondary to moderate XXXX motion. Underlying emphysematous changes are identified. IMPRESSION: Hypoinflation with elevated left hemidiaphragm and possible left basilar infiltrate versus atelectasis. Followup evaluation is suggested in 2 to 4 weeks."
+  },
+  {
+    "index": 391,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Heart size is normal. Lungs are clear. Minimal degenerative spurring of midthoracic spine. No effusion, pneumonia, nodules or masses."
+  },
+  {
+    "index": 392,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Clear lungs."
+  },
+  {
+    "index": 393,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No acute process."
+  },
+  {
+    "index": 394,
+    "prediction": "No active disease.",
+    "reference": "heart size is normal, lungs are clear. No nodular masses. CT scan is more sensitive in detecting small nodules."
+  },
+  {
+    "index": 395,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Heart size normal. Lungs are clear. 5 mm right apical granuloma unchanged"
+  },
+  {
+    "index": 396,
+    "prediction": "No acute disease.",
+    "reference": "Normal chest"
+  },
+  {
+    "index": 397,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 398,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute findings."
+  },
+  {
+    "index": 399,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 400,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Right upper lobe pulmonary nodule, XXXX granuloma."
+  },
+  {
+    "index": 401,
+    "prediction": "No active cardiopulmonary abnormality.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 402,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "1. No acute pulmonary disease."
+  },
+  {
+    "index": 403,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 404,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1 cm nodule within the lung base, seen only on the lateral view. Consider imaging correlation with XXXX abdomen study, if available. ."
+  },
+  {
+    "index": 405,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Minimal XXXX atelectasis in the right midlung zone versus pleural scarring in the right XXXX fissure. 2. Minimal blunting of the posterior right costophrenic XXXX, consistent with a small pleural effusion and/or pleural scarring. 3. Cardiomegaly. 4. No XXXX abnormalities as compared to prior study of earlier the same XXXX"
+  },
+  {
+    "index": 406,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No acute abnormality."
+  },
+  {
+    "index": 407,
+    "prediction": "No acute disease.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 408,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 409,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Normal heart size. Normal pulmonary vasculature. Normal mediastinal contours. Lung parenchyma is clear. No airspace disease. No pulmonary edema. No XXXX of pleural effusions. No XXXX of active cardiopulmonary disease."
+  },
+  {
+    "index": 410,
+    "prediction": "No acute disease.",
+    "reference": "Negative chest."
+  },
+  {
+    "index": 411,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Negative for acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 412,
+    "prediction": "No active disease.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 413,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No evidence of active disease."
+  },
+  {
+    "index": 414,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute findings."
+  },
+  {
+    "index": 415,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "1. Suspected fractures of the left anterior 6th and 7th ribs, of uncertain acuity. Correlate with XXXX tenderness. 2. Low lung volumes with mild basilar atelectasis, left greater than right. ."
+  },
+  {
+    "index": 416,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Borderline heart size. Calcified aorta. No active pulmonary edema or lobar pneumonia. Probable large retrocardiac hiatal hernia."
+  },
+  {
+    "index": 417,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Interval placement of a dual-lumen dialysis catheter with the distal tip projected over the right atrium. 2. Bibasilar airspace opacities and bilateral pleural effusions."
+  },
+  {
+    "index": 418,
+    "prediction": "No acute cardiopulmonary findings.",
+    "reference": "No acute findings"
+  },
+  {
+    "index": 419,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 420,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Minimal perihilar opacity which could indicate an atypical pneumonia."
+  },
+  {
+    "index": 421,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 422,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 423,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute radiographic cardiopulmonary process. 2. Mild hyperinflation."
+  },
+  {
+    "index": 424,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Continued severe cardiomegaly and/or pericardial effusion. No acute pulmonary disease process identified."
+  },
+  {
+    "index": 425,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute abnormality."
+  },
+  {
+    "index": 426,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Changes of chronic emphysematous lung disease without acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 427,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "Changes of chronic lung disease without acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 428,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Heart size normal. Hyperexpanded lungs with minimal interstitial prominence. Most XXXX represents XXXX's lung. No nodules or masses. Bilateral nipple shadows seen"
+  },
+  {
+    "index": 429,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary process. ."
+  },
+  {
+    "index": 430,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 431,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Heart size, mediastinal silhouette and vascularity normal. No lobar consolidation, pleural effusion. No pneumothorax. 2. Approximately 1 cm right middle lobe nodular opacity. Not XXXX showing benign type calcification, consider followup XXXX of the chest for characterization."
+  },
+  {
+    "index": 432,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 433,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Negative chest x-XXXX."
+  },
+  {
+    "index": 434,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute intrathoracic abnormality."
+  },
+  {
+    "index": 435,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 436,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 437,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 438,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No evidence of acute thoracic XXXX. XXXX chest radiograph is recommended if XXXX is not XXXX."
+  },
+  {
+    "index": 439,
+    "prediction": "No acute disease.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 440,
+    "prediction": "No acute disease.",
+    "reference": "1. Low lung volumes with patchy bilateral scarring versus atelectasis. 2. Otherwise, no acute or XXXX pulmonary abnormality."
+  },
+  {
+    "index": 441,
+    "prediction": "No active disease.",
+    "reference": "No acute cardiopulmonary abnormalities. ."
+  },
+  {
+    "index": 442,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No evidence of active disease."
+  },
+  {
+    "index": 443,
+    "prediction": "No active disease.",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 444,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Negative chest."
+  },
+  {
+    "index": 445,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 446,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary disease. Critical result notification documented through Primordial."
+  },
+  {
+    "index": 447,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Chest. Continued right hemidiaphragm elevation with right lower lobe airspace disease. 2. Right shoulder. Scapular fracture. 3. Clavicle. Acromioclavicular separation."
+  },
+  {
+    "index": 448,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No radiographic evidence of acute cardiopulmonary disease"
+  },
+  {
+    "index": 449,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 450,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Stable cardiomegaly. Improved aeration in the left lung base. Right basilar airspace disease is unchanged. No pneumothorax or pleural effusion. Right internal jugular central line has been removed. Left subclavian line is stable."
+  },
+  {
+    "index": 451,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 452,
+    "prediction": "No active disease.",
+    "reference": "Calcified granuloma periphery left lung. Well-expanded and clear lungs. Mediastinal contour within normal limits. No acute cardiopulmonary abnormality identified."
+  },
+  {
+    "index": 453,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 454,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormality.."
+  },
+  {
+    "index": 455,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary disease"
+  },
+  {
+    "index": 456,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 457,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Subtle interstitial markings bilateral, may represent mild pulmonary edema or chronic interstitial changes."
+  },
+  {
+    "index": 458,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary process."
+  },
+  {
+    "index": 459,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 460,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Small nodular opacity in left upper lung may be secondary to superimposed structures or early infiltrate. Followup evaluation in 2 weeks may be helpful."
+  },
+  {
+    "index": 461,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 462,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Stable normal chest x-XXXX."
+  },
+  {
+    "index": 463,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Negative for acute abnormality."
+  },
+  {
+    "index": 464,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Hyperexpanded but clear lungs."
+  },
+  {
+    "index": 465,
+    "prediction": "No acute disease.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 466,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 467,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Stable cardiomegaly. Improved aeration of lung bases with persistent left basilar effusion. Prominent interstitium, possibly due to mild volume overload. ."
+  },
+  {
+    "index": 468,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Obscuration of the bilateral lung bases, XXXX combination of atelectasis, infiltrate, effusions."
+  },
+  {
+    "index": 469,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Severe emphysema. 2. Irregular, pleural-parenchymal opacity in left upper lobe. This may irregular pleural-parenchymal scarring, however, recommend comparison with more remote outside imaging, if available to determine long-term stability. If none are available, recommend short-term XXXX in 3 to 4 months. Evaluation of coronal and sagittal reformatted images from the outside study would also be helpful. These were not XXXX available at the outside institution. Malignancy cannot be confidently excluded on the available images."
+  },
+  {
+    "index": 470,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 471,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Clear lungs."
+  },
+  {
+    "index": 472,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Pulmonary hypoinflation with bronchovascular crowding and minimal bibasilar subsegmental atelectasis."
+  },
+  {
+    "index": 473,
+    "prediction": "No active disease.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 474,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Negative."
+  },
+  {
+    "index": 475,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "1. Enlarged pulmonary arteries. This may be due to previous/chronic pulmonary embolism or XXXX pulmonary arterial hypertension. 2. No evidence of pneumonia or other acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 476,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormality. Specifically, no radiographically apparent etiology for hemoptysis."
+  },
+  {
+    "index": 477,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Normal exam"
+  },
+  {
+    "index": 478,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Multiple nodules in both the left and right lungs consistent with neoplasm. Further workup could be initiated with contrasted CT of the chest, abdomen, and pelvis. Dr. XXXX XXXX I discussed the findings and further workup suggestions by telephone approximately XXXX hours XXXX, XXXX."
+  },
+  {
+    "index": 479,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 480,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Heart size, mediastinal silhouette, pulmonary vascularity are within normal limits. There is no lobar consolidation. No pleural effusion or pneumothorax."
+  },
+  {
+    "index": 481,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute abnormality. 2. Dextroscoliosis of thoracic spine unchanged. ."
+  },
+  {
+    "index": 482,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 483,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "Radiographic findings suggestive of emphysema."
+  },
+  {
+    "index": 484,
+    "prediction": "No active cardiopulmonary abnormality.",
+    "reference": "Three total images. Heart size is normal. Tortuous aorta including mildly ectatic appearing ascending aorta. No comparisons are available to evaluate stability. Normal pulmonary vascularity. No focal infiltrates or pleural effusions. No pneumothorax."
+  },
+  {
+    "index": 485,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 486,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary process. ."
+  },
+  {
+    "index": 487,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Bibasilar atelectasis. Otherwise, no acute abnormality"
+  },
+  {
+    "index": 488,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No XXXX suspicious pulmonary mass or nodule identified. However, given the presence of small nodules on the XXXX chest CT scan and patient history of prostate cancer, recommend further evaluation with XXXX scan (unless already recently performed)."
+  },
+  {
+    "index": 489,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Normal heart size. Normal pulmonary vasculature. Normal mediastinal contours. Lung parenchyma is clear. No airspace disease. No pulmonary edema. No XXXX of pleural effusions. No XXXX of active cardiopulmonary disease. Unchanged."
+  },
+  {
+    "index": 490,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Hyperinflated lungs, air trapping versus inspiratory XXXX."
+  },
+  {
+    "index": 491,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Stable chronic changes. No acute findings. ."
+  },
+  {
+    "index": 492,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 493,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Suspected mild patchy right upper lobe pneumonia, for which clinical correlation is recommended."
+  },
+  {
+    "index": 494,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 495,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. No acute pulmonary disease."
+  },
+  {
+    "index": 496,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 497,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute pulmonary disease."
+  },
+  {
+    "index": 498,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Stable, nonenlarged cardiomediastinal silhouette. Left upper lobe calcified granuloma noted. Epigastric and right upper quadrant postsurgical changes. Interval increased bilateral interstitial opacities, with probable left lower lobe infiltrate."
+  },
+  {
+    "index": 499,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute pulmonary findings."
+  },
+  {
+    "index": 500,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Hand 1. Minimally displaced fracture through the XXXX of the scaphoid. 2. Lucency through the base of the fourth metacarpal. This may represent a vascular XXXX or if XXXX tenderness exists over this location then fracture is more XXXX. Chest 1. No acute cardiopulmonary findings. ."
+  },
+  {
+    "index": 501,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Rib films. No fractures or dislocations. Chest. Heart size normal. Lungs are clear. No effusion or pneumothorax. Minimal degenerative disease thoracic spine"
+  },
+  {
+    "index": 502,
+    "prediction": "No active disease.",
+    "reference": "No acute cardiopulmonary abnormality.."
+  },
+  {
+    "index": 503,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Heart size normal and lungs are clear."
+  },
+  {
+    "index": 504,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Normal chest"
+  },
+  {
+    "index": 505,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary disease. No evidence of pneumonia."
+  },
+  {
+    "index": 506,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 507,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary findings."
+  },
+  {
+    "index": 508,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Redemonstration of elevated right hemidiaphragm with associated basilar airspace disease and effusion. 2. Ill-defined XXXX right upper lung opacities, possibly related to superimposed rib lesions versus developing pulmonary nodules. Further imaging XXXX of the chest may be indicated."
+  },
+  {
+    "index": 509,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No radiographic evidence of acute cardiopulmonary disease"
+  },
+  {
+    "index": 510,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 511,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "Anticipated senescent changes with grossly clear lungs. No effusions or CHF identified. A few scant reticular opacities in right lung base XXXX hypoventilation and foci of subsegmental atelectasis. No XXXX acute abnormalities since the previous chest radiograph."
+  },
+  {
+    "index": 512,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 513,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "There is no evidence of acute cardiopulmonary disease. ."
+  },
+  {
+    "index": 514,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary findings. ."
+  },
+  {
+    "index": 515,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No active disease.."
+  },
+  {
+    "index": 516,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Emphysema without acute disease."
+  },
+  {
+    "index": 517,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute infiltrate."
+  },
+  {
+    "index": 518,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "1. No acute pulmonary disease."
+  },
+  {
+    "index": 519,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Clear lungs."
+  },
+  {
+    "index": 520,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 521,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Left midlung pulmonary nodule. Comparison to a previous XXXX would be most helpful alternatively a noncontrast chest CT could be performed in the nonemergent setting for further characterization. No acute disease."
+  },
+  {
+    "index": 522,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary finding. Specifically there is no evidence of active tuberculosis infection."
+  },
+  {
+    "index": 523,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Unchanged loculated right pleural fusion. No change chronic interstitial lung disease."
+  },
+  {
+    "index": 524,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "1. No acute cardiopulmonary process."
+  },
+  {
+    "index": 525,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 526,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Heart size is normal. No nodules, masses, or adenopathy. Calcified right paratracheal and right hilar lymph XXXX unchanged."
+  },
+  {
+    "index": 527,
+    "prediction": "No active disease.",
+    "reference": "Low lung volumes with blunted costophrenic XXXX, XXXX XXXX bilateral pleural effusions."
+  },
+  {
+    "index": 528,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 529,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 530,
+    "prediction": "No active cardiopulmonary abnormality.",
+    "reference": "No acute findings"
+  },
+  {
+    "index": 531,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "1. No acute cardiopulmonary abnormality. 2. Chronic changes consistent with emphysema."
+  },
+  {
+    "index": 532,
+    "prediction": "No acute disease.",
+    "reference": "1. 7mm non calcified nodule, XXXX in appearance, recommend CT chest without contrast."
+  },
+  {
+    "index": 533,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Small left pleural effusion."
+  },
+  {
+    "index": 534,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "There are chronic changes in both lungs with appearance of emphysema. No acute airspace disease. No pulmonary edema. No XXXX of pleural effusions. Findings are grossly unchanged compared with prior chest CT from XXXX."
+  },
+  {
+    "index": 535,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "Heart size is normal and lungs are clear. No pneumonia."
+  },
+  {
+    "index": 536,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Right upper lobe lung nodules. Recommend XXXX."
+  },
+  {
+    "index": 537,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Normal chest"
+  },
+  {
+    "index": 538,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Bronchovascular crowding versus atelectasis within the right lung base otherwise no acute cardiopulmonary disease."
+  },
+  {
+    "index": 539,
+    "prediction": "No active disease.",
+    "reference": "Negative chest x-XXXX."
+  },
+  {
+    "index": 540,
+    "prediction": "No active cardiopulmonary disease.",
+    "reference": "1. Increased opacity in the right upper lobe with XXXX associated atelectasis may represent focal consolidation or mass lesion with atelectasis. Recommend chest CT for further evaluation. 2. XXXX opacity overlying the left 5th rib may represent focal airspace disease."
+  },
+  {
+    "index": 541,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Sternotomy XXXX are noted in XXXX. Vascular clips are noted consistent with previous coronary artery bypass graft. The previously seen central venous line catheter has been removed. A left pleural effusion remains. Underlying atelectasis is suspected. Given differences in technique, the effusion is not XXXX to be significantly different but is XXXX favored to be lower end of moderate for size. Osseous structures are remarkable for osteopenia, degenerative changes and there is some kyphosis noted to the thoracic spine."
+  },
+  {
+    "index": 542,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Winged right scapula consistent with supporting structure soft tissue injury. No visible fractures. No visible cardiopulmonary injury."
+  },
+  {
+    "index": 543,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Cardiomegaly. 2. Pleural thickening along the inferior left lateral chest wall stable since the prior examination."
+  },
+  {
+    "index": 544,
+    "prediction": "No active disease.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 545,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Heart size normal. Slight tortuous aorta. The lungs are clear. No effusions or edema"
+  },
+  {
+    "index": 546,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "1. Chronic appearing bibasilar pleural abnormality with possible small effusions. 2. No evidence of pneumonia. TIPS shunt visualized. ."
+  },
+  {
+    "index": 547,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "Right upper lobe airspace consolidation Please correlate clinically for pneumonia."
+  },
+  {
+    "index": 548,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Negative chest x-XXXX."
+  },
+  {
+    "index": 549,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "Emphysema without superimposed pneumonia."
+  },
+  {
+    "index": 550,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "XXXX onset right basal chest infection"
+  },
+  {
+    "index": 551,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Clear lungs."
+  },
+  {
+    "index": 552,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary abnormality."
+  },
+  {
+    "index": 553,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormalities."
+  },
+  {
+    "index": 554,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary disease."
+  },
+  {
+    "index": 555,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute cardiopulmonary process. ."
+  },
+  {
+    "index": 556,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. Negative for acute cardiopulmonary findings."
+  },
+  {
+    "index": 557,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute cardiopulmonary abnormalities. ."
+  },
+  {
+    "index": 558,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "2.1 cm nodular density in the anterior costophrenic XXXX on the lateral view, which could represent overlapping shadows or actual pulmonary nodule. Recommend followup with chest CT."
+  },
+  {
+    "index": 559,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute radiographic cardiopulmonary process."
+  },
+  {
+    "index": 560,
+    "prediction": "No acute cardiopulmonary abnormalities.",
+    "reference": "Heart size normal. Degenerative spurring of thoracic spine. Calcified right and left hilar lymph XXXX. There is minimal interstitial nodular opacities in the right and left midlung. This could be consistent with sarcoidosis. The small nodular opacities were present on the old CT scan from XXXX"
+  },
+  {
+    "index": 561,
+    "prediction": "No acute disease.",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 562,
+    "prediction": "No active cardiopulmonary process.",
+    "reference": "No acute cardiopulmonary abnormalities. Specifically, no evidence of active tuberculosis."
+  },
+  {
+    "index": 563,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "1. No acute intrathoracic abnormality."
+  },
+  {
+    "index": 564,
+    "prediction": "No active disease.",
+    "reference": "1. Persistent mild right upper lobe infiltrate, similar to slightly improved from XXXX. 2. Left lung grossly clear."
+  },
+  {
+    "index": 565,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute disease."
+  },
+  {
+    "index": 566,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No acute process."
+  },
+  {
+    "index": 567,
+    "prediction": "No acute cardiopulmonary abnormality.",
+    "reference": "No active disease."
+  },
+  {
+    "index": 568,
+    "prediction": "No acute cardiopulmonary disease.",
+    "reference": "No acute radiographic cardiopulmonary process."
+  }
+]

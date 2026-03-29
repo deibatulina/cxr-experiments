@@ -1,0 +1,31 @@
+{
+  "train_loss": [
+    2.619522652737628,
+    2.43940634022906
+  ],
+  "val_loss": [
+    2.201197732874761,
+    2.1240123056515774
+  ],
+  "learning_metrics": [
+    {
+      "epoch": 1,
+      "BLEU-4": 0.008992387430819768,
+      "ROUGE-L": 0.14912958652924138,
+      "METEOR": 0.14841516075630815
+    },
+    {
+      "epoch": 2,
+      "BLEU-4": 0.009587645006301283,
+      "ROUGE-L": 0.16161278551011923,
+      "METEOR": 0.16021361280808888
+    }
+  ],
+  "best_epoch": 2,
+  "best_val_loss": 2.1240123056515774,
+  "completed_epochs": 2,
+  "requested_epochs": 2,
+  "status": "completed",
+  "tensorboard_dir": "results/Salesforce__blip2_flan_t5_xl/mimic_cxr/fine_tuned/tensorboard",
+  "log_file": "results/Salesforce__blip2_flan_t5_xl/mimic_cxr/fine_tuned/fine_tuned_training_log.jsonl"
+}
