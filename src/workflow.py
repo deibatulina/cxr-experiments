@@ -1,7 +1,10 @@
+from __future__ import annotations
+
 import os
 import random
 from collections import Counter
 from pathlib import Path
+from typing import Any
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -20,6 +23,12 @@ from .utils import clear_memory, limit_split, load_json, prepare_run_dir_for_rer
 os.environ.setdefault("MPLCONFIGDIR", str(Path("results/.matplotlib").resolve()))
 
 
+RuntimeState = dict[str, Any]
+ExperimentResult = dict[str, Any]
+BehaviorSummary = dict[str, Any]
+PathologyTerms = dict[str, list[str]]
+
+
 DEFAULT_PATHOLOGY_TERMS = {
     "cardiomegaly": ["cardiomegaly", "cardiac enlargement", "enlarged heart"],
     "effusion": ["effusion", "effusions", "pleural effusion", "pleural effusions"],
@@ -34,7 +43,9 @@ DEFAULT_PATHOLOGY_TERMS = {
 }
 
 
-def resolve_platform():
+def resolve_platform() -> dict[str, Any]:
+    """Выбирает device-зависимые параметры обучения и генерации."""
+
     if torch.cuda.is_available():
         return {
             "device": "cuda",
@@ -69,7 +80,9 @@ def resolve_platform():
     }
 
 
-def initialize_runtime(config=None):
+def initialize_runtime(config: dict[str, Any] | None = None) -> RuntimeState:
+    """Инициализирует переменные окружения, seed, директории и состояние workflow."""
+
     if config is None:
         config = create_runtime_config()
 
@@ -105,14 +118,18 @@ def initialize_runtime(config=None):
     }
 
 
-def get_base_dataset_splits(state, dataset_name):
+def get_base_dataset_splits(state: RuntimeState, dataset_name: str) -> Any:
+    """Загружает и кэширует базовые сплиты выбранного датасета."""
+
     if dataset_name not in state["dataset_cache"]:
         dataset_spec = state["dataset_specs"][dataset_name]
         state["dataset_cache"][dataset_name] = load_dataset_splits(dataset_spec, state["config"])
     return state["dataset_cache"][dataset_name]
 
 
-def get_experiment_splits(state, experiment):
+def get_experiment_splits(state: RuntimeState, experiment: dict[str, Any]) -> Any:
+    """Возвращает итоговые сплиты эксперимента, включая специальную балансировку."""
+
     if experiment["name"] in state["experiment_split_cache"]:
         return state["experiment_split_cache"][experiment["name"]]
 
@@ -130,25 +147,41 @@ def get_experiment_splits(state, experiment):
     return state["experiment_split_cache"][experiment["name"]]
 
 
-def get_artifact_dir(state, experiment):
+def get_artifact_dir(state: RuntimeState, experiment: dict[str, Any]) -> Path:
+    """Возвращает корневую директорию артефактов конкретного эксперимента."""
+
     return state["artifact_root_dir"] / experiment["artifact_dir_name"]
 
 
-def get_zero_shot_dir(state, experiment):
+def get_zero_shot_dir(state: RuntimeState, experiment: dict[str, Any]) -> Path:
+    """Возвращает директорию для zero-shot артефактов."""
+
     return get_artifact_dir(state, experiment) / "zero_shot"
 
 
-def get_fine_tuned_dir(state, experiment):
+def get_fine_tuned_dir(state: RuntimeState, experiment: dict[str, Any]) -> Path:
+    """Возвращает директорию для артефактов fine-tuning."""
+
     return get_artifact_dir(state, experiment) / "fine_tuned"
 
 
-def get_plot_dir(state, experiment=None):
+def get_plot_dir(state: RuntimeState, experiment: dict[str, Any] | None = None) -> Path:
+    """Возвращает либо общую директорию графиков, либо директорию графиков датасета."""
+
     if experiment is None:
         return state["plots_root_dir"]
     return state["plots_root_dir"] / experiment["artifact_dir_name"]
 
 
-def build_result_record(experiment, run_mode, source, output_dir, payload):
+def build_result_record(
+    experiment: dict[str, Any],
+    run_mode: str,
+    source: str,
+    output_dir: Path,
+    payload: dict[str, Any],
+) -> ExperimentResult:
+    """Формирует стандартную структуру результата эксперимента с метаданными."""
+
     result = {
         "name": experiment["name"],
         "kind": experiment["kind"],
@@ -163,7 +196,13 @@ def build_result_record(experiment, run_mode, source, output_dir, payload):
     return result
 
 
-def run_zero_shot_experiment(state, experiment, run_mode="auto"):
+def run_zero_shot_experiment(
+    state: RuntimeState,
+    experiment: dict[str, Any],
+    run_mode: str = "auto",
+) -> ExperimentResult:
+    """Запускает zero-shot эксперимент или переиспользует уже сохранённые результаты."""
+
     output_dir = get_zero_shot_dir(state, experiment)
     dataset_dir = get_artifact_dir(state, experiment)
     plot_dir = get_plot_dir(state, experiment)
@@ -222,7 +261,13 @@ def run_zero_shot_experiment(state, experiment, run_mode="auto"):
     )
 
 
-def run_fine_tuned_experiment(state, experiment, run_mode="auto"):
+def run_fine_tuned_experiment(
+    state: RuntimeState,
+    experiment: dict[str, Any],
+    run_mode: str = "auto",
+) -> ExperimentResult:
+    """Запускает fine-tuning эксперимент или переиспользует уже сохранённые результаты."""
+
     run_dir = get_fine_tuned_dir(state, experiment)
 
     if run_mode in {"auto", "reuse"}:
@@ -248,14 +293,26 @@ def run_fine_tuned_experiment(state, experiment, run_mode="auto"):
     return build_result_record(experiment, run_mode, "fresh_run", run_dir, payload)
 
 
-def run_experiment(state, experiment_name, run_mode="auto"):
+def run_experiment(
+    state: RuntimeState,
+    experiment_name: str,
+    run_mode: str = "auto",
+) -> ExperimentResult:
+    """Маршрутизирует эксперимент в ветку zero-shot или fine-tuning."""
+
     experiment = state["experiments"][experiment_name]
     if experiment["kind"] == "zero_shot":
         return run_zero_shot_experiment(state, experiment, run_mode)
     return run_fine_tuned_experiment(state, experiment, run_mode)
 
 
-def run_experiments(state, experiment_names=None, run_modes=None):
+def run_experiments(
+    state: RuntimeState,
+    experiment_names: list[str] | None = None,
+    run_modes: dict[str, str] | None = None,
+) -> dict[str, ExperimentResult]:
+    """Запускает набор экспериментов и собирает их результаты."""
+
     if experiment_names is None:
         experiment_names = list(state["experiments"].keys())
     if run_modes is None:
@@ -270,27 +327,40 @@ def run_experiments(state, experiment_names=None, run_modes=None):
     return results
 
 
-def filter_results_by_kind(results, kind):
+def filter_results_by_kind(results: dict[str, ExperimentResult], kind: str) -> dict[str, ExperimentResult]:
+    """Оставляет только результаты указанного типа эксперимента."""
+
     return {name: result for name, result in results.items() if result["kind"] == kind}
 
 
-def print_result_sources(results):
+def print_result_sources(results: dict[str, ExperimentResult]) -> None:
+    """Печатает, были ли результаты загружены из артефактов или получены заново."""
+
     print("Experiment sources")
     print("-" * 30)
     for experiment_name, result in results.items():
         print(f"{experiment_name:<24} {result['source']}")
 
 
-def collect_metric_comparison(results):
+def collect_metric_comparison(results: dict[str, ExperimentResult]) -> dict[str, dict[str, Any]]:
+    """Извлекает словари метрик для сравнения и визуализации."""
+
     return {name: result["metrics"] for name, result in results.items() if result.get("metrics") is not None}
 
 
-def text_contains_any(text, keywords):
+def text_contains_any(text: Any, keywords: list[str]) -> bool:
+    """Проверяет, содержит ли текст хотя бы одно ключевое подстрочное совпадение."""
+
     text = str(text).lower()
     return any(keyword in text for keyword in keywords)
 
 
-def get_present_pathology_terms(text, pathology_terms=None):
+def get_present_pathology_terms(
+    text: Any,
+    pathology_terms: PathologyTerms | None = None,
+) -> list[str]:
+    """Возвращает группы патологических терминов, найденные в тексте."""
+
     if pathology_terms is None:
         pathology_terms = DEFAULT_PATHOLOGY_TERMS
 
@@ -301,7 +371,12 @@ def get_present_pathology_terms(text, pathology_terms=None):
     return present_terms
 
 
-def analyze_prediction_behavior(result, pathology_terms=None):
+def analyze_prediction_behavior(
+    result: ExperimentResult,
+    pathology_terms: PathologyTerms | None = None,
+) -> BehaviorSummary:
+    """Суммирует разнообразие генерации, bias к нормальным шаблонам и полноту по патологиям."""
+
     if pathology_terms is None:
         pathology_terms = DEFAULT_PATHOLOGY_TERMS
 
@@ -360,8 +435,8 @@ def analyze_prediction_behavior(result, pathology_terms=None):
             if term_name in prediction_terms:
                 term_hits[term_name] += 1
 
-    term_recall = {}
-    filtered_term_support = {}
+    term_recall: dict[str, float] = {}
+    filtered_term_support: dict[str, int] = {}
     for term_name in pathology_terms:
         support = term_support[term_name]
         if support > 0:
@@ -395,14 +470,26 @@ def analyze_prediction_behavior(result, pathology_terms=None):
     }
 
 
-def analyze_results_behavior(results, pathology_terms=None):
-    summary = {}
+def analyze_results_behavior(
+    results: dict[str, ExperimentResult],
+    pathology_terms: PathologyTerms | None = None,
+) -> dict[str, BehaviorSummary]:
+    """Запускает поведенческий анализ для каждого результата в коллекции."""
+
+    summary: dict[str, BehaviorSummary] = {}
     for experiment_name, result in results.items():
         summary[experiment_name] = analyze_prediction_behavior(result, pathology_terms)
     return summary
 
 
-def plot_behavior_comparison(behavior_summary, metric_name, title, output_path=None):
+def plot_behavior_comparison(
+    behavior_summary: dict[str, BehaviorSummary],
+    metric_name: str,
+    title: str,
+    output_path: Path | None = None,
+) -> None:
+    """Строит столбчатую диаграмму для одной поведенческой метрики."""
+
     labels = list(behavior_summary.keys())
     values = [behavior_summary[label][metric_name] for label in labels]
     plt.figure(figsize=(10, 6))
@@ -419,16 +506,18 @@ def plot_behavior_comparison(behavior_summary, metric_name, title, output_path=N
 
 
 def plot_pathology_recall_comparison(
-    behavior_summary,
-    title,
-    output_path=None,
-    min_support=25,
-    max_terms=8,
-):
+    behavior_summary: dict[str, BehaviorSummary],
+    title: str,
+    output_path: Path | None = None,
+    min_support: int = 25,
+    max_terms: int = 8,
+) -> None:
+    """Строит групповой график полноты для наиболее представленных патологических терминов."""
+
     if not behavior_summary:
         return
 
-    term_support = {}
+    term_support: dict[str, int] = {}
     for summary in behavior_summary.values():
         for term_name, support in summary["term_support"].items():
             term_support[term_name] = term_support.get(term_name, 0) + support
@@ -465,7 +554,14 @@ def plot_pathology_recall_comparison(
     plt.close()
 
 
-def plot_metric_comparison(comparison, metric_name, title, output_path=None):
+def plot_metric_comparison(
+    comparison: dict[str, dict[str, Any]],
+    metric_name: str,
+    title: str,
+    output_path: Path | None = None,
+) -> None:
+    """Строит столбчатую диаграмму для одной лексической метрики."""
+
     labels = list(comparison.keys())
     values = [comparison[label][metric_name] for label in labels]
     plt.figure(figsize=(10, 6))
@@ -481,7 +577,9 @@ def plot_metric_comparison(comparison, metric_name, title, output_path=None):
     plt.close()
 
 
-def analyze_validation_predictions(run_dir):
+def analyze_validation_predictions(run_dir: Path) -> dict[str, Any]:
+    """Анализирует сохранённые validation-предсказания по эпохам fine-tuning."""
+
     validation_dir = run_dir / "validation_by_epoch"
     validation_files = sorted(validation_dir.glob("epoch_*_validation_predictions.json"))
     result = {"validation_files": [str(path) for path in validation_files], "epochs": []}
@@ -505,7 +603,9 @@ def analyze_validation_predictions(run_dir):
     return result
 
 
-def print_validation_analysis(title, analysis):
+def print_validation_analysis(title: str, analysis: dict[str, Any]) -> None:
+    """Печатает результаты анализа validation-предсказаний для одного запуска обучения."""
+
     print(title)
     print("-" * 40)
     if not analysis["epochs"]:
@@ -524,8 +624,10 @@ def print_validation_analysis(title, analysis):
     print(f"best validation loss: {analysis.get('best_val_loss')}")
 
 
-def build_comparative_analysis(results):
-    grouped = {}
+def build_comparative_analysis(results: dict[str, ExperimentResult]) -> str:
+    """Формирует краткий текстовый анализ различий между zero-shot и fine-tuned метриками."""
+
+    grouped: dict[str, dict[str, ExperimentResult]] = {}
     for _, result in results.items():
         grouped.setdefault(result["dataset_name"], {})[result["kind"]] = result
 

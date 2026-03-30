@@ -1,6 +1,16 @@
+from __future__ import annotations
+
 from pathlib import Path
+from typing import Any, Callable
 
 import torch
+
+
+DataLimits = dict[str, int | None]
+RuntimeConfig = dict[str, Any]
+DatasetSpec = dict[str, Any]
+ExperimentSpec = dict[str, Any]
+ExperimentRegistry = dict[str, ExperimentSpec]
 
 
 DEFAULT_MODEL_NAME = "Salesforce/blip2-flan-t5-xl"
@@ -29,7 +39,14 @@ DEFAULT_RUN_MODES = {
 }
 
 
-def create_data_limits(zero_shot=None, train=None, validation=None, test=None):
+def create_data_limits(
+    zero_shot: int | None = None,
+    train: int | None = None,
+    validation: int | None = None,
+    test: int | None = None,
+) -> DataLimits:
+    """Формирует ограничения на число объектов в каждом сплите."""
+
     return {
         "zero_shot": zero_shot,
         "train": train,
@@ -39,18 +56,20 @@ def create_data_limits(zero_shot=None, train=None, validation=None, test=None):
 
 
 def create_runtime_config(
-    model_name=DEFAULT_MODEL_NAME,
-    prompt=DEFAULT_PROMPT,
-    seed=42,
-    results_root_dir=Path("results"),
-    num_epochs_by_experiment=None,
-    learning_rate=1e-5,
-    weight_decay=0.01,
-    train_dtype=torch.float32,
-    max_label_length=96,
-    max_grad_norm=1.0,
-    data_limits=None,
-):
+    model_name: str = DEFAULT_MODEL_NAME,
+    prompt: str = DEFAULT_PROMPT,
+    seed: int = 42,
+    results_root_dir: str | Path = Path("results"),
+    num_epochs_by_experiment: dict[str, int] | None = None,
+    learning_rate: float = 1e-5,
+    weight_decay: float = 0.01,
+    train_dtype: torch.dtype = torch.float32,
+    max_label_length: int = 96,
+    max_grad_norm: float = 1.0,
+    data_limits: DataLimits | None = None,
+) -> RuntimeConfig:
+    """Собирает runtime-конфигурацию, общую для всего pipeline."""
+
     if num_epochs_by_experiment is None:
         num_epochs_by_experiment = {
             "iu_xray_fine_tuned": 3,
@@ -75,7 +94,9 @@ def create_runtime_config(
     }
 
 
-def build_dataset_specs():
+def build_dataset_specs() -> dict[str, DatasetSpec]:
+    """Возвращает метаданные датасетов для загрузки изображений и текстов."""
+
     return {
         "iu_xray": {
             "name": "iu_xray",
@@ -94,7 +115,11 @@ def build_dataset_specs():
     }
 
 
-def build_experiments(build_balanced_iu_splits):
+def build_experiments(
+    build_balanced_iu_splits: Callable[[Any, DatasetSpec, int], Any],
+) -> ExperimentRegistry:
+    """Описывает все поддерживаемые zero-shot и fine-tuning эксперименты."""
+
     return {
         "iu_xray_zero_shot": {
             "name": "iu_xray_zero_shot",

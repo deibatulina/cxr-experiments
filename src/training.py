@@ -1,3 +1,8 @@
+from __future__ import annotations
+
+from pathlib import Path
+from typing import Any
+
 import matplotlib.pyplot as plt
 import torch
 from torch.optim import AdamW
@@ -9,7 +14,9 @@ from .evaluation import evaluate_split, load_model_and_processor, load_saved_gen
 from .utils import append_jsonl, clear_memory, load_json, save_json, to_rgb
 
 
-def freeze_model_for_training(model):
+def freeze_model_for_training(model: Any) -> None:
+    """Замораживает базовую модель и оставляет обучаемыми только нужные блоки BLIP-2."""
+
     for parameter in model.parameters():
         parameter.requires_grad = False
 
@@ -25,7 +32,16 @@ def freeze_model_for_training(model):
             parameter.requires_grad = True
 
 
-def preprocess_split(split, processor, image_field, target_field, prompt, max_label_length):
+def preprocess_split(
+    split: Any,
+    processor: Any,
+    image_field: str,
+    target_field: str,
+    prompt: str,
+    max_label_length: int,
+) -> Any:
+    """Преобразует сплит датасета в токенизированные входы модели и labels."""
+
     def preprocess_one(sample):
         image = to_rgb(sample[image_field])
         inputs = processor(images=image, text=prompt, return_tensors="pt")
@@ -48,7 +64,9 @@ def preprocess_split(split, processor, image_field, target_field, prompt, max_la
     return split.map(preprocess_one, remove_columns=split.column_names)
 
 
-def collate_batch(batch):
+def collate_batch(batch: list[dict[str, Any]]) -> dict[str, torch.Tensor]:
+    """Объединяет токенизированные объекты в mini-batch для PyTorch."""
+
     return {
         "pixel_values": torch.stack([torch.tensor(item["pixel_values"]) for item in batch]),
         "input_ids": torch.tensor([item["input_ids"] for item in batch], dtype=torch.long),
@@ -57,14 +75,23 @@ def collate_batch(batch):
     }
 
 
-def move_batch_to_device(batch, device):
-    result = {}
+def move_batch_to_device(batch: dict[str, torch.Tensor], device: str) -> dict[str, torch.Tensor]:
+    """Переносит все тензоры батча на выбранное устройство."""
+
+    result: dict[str, torch.Tensor] = {}
     for key, value in batch.items():
         result[key] = value.to(device)
     return result
 
 
-def plot_training_loss_curve(output_path, dataset_name, train_losses, val_losses):
+def plot_training_loss_curve(
+    output_path: Path,
+    dataset_name: str,
+    train_losses: list[float],
+    val_losses: list[float],
+) -> None:
+    """Строит и сохраняет график train/validation loss по эпохам."""
+
     output_path.parent.mkdir(parents=True, exist_ok=True)
     plt.figure(figsize=(10, 6))
     plt.plot(range(1, len(train_losses) + 1), train_losses, marker="o", label="Train loss")
@@ -80,7 +107,13 @@ def plot_training_loss_curve(output_path, dataset_name, train_losses, val_losses
     plt.close()
 
 
-def plot_learning_curve(output_path, dataset_name, learning_metrics):
+def plot_learning_curve(
+    output_path: Path,
+    dataset_name: str,
+    learning_metrics: list[dict[str, float | int]],
+) -> None:
+    """Строит и сохраняет динамику лексических метрик на validation по эпохам."""
+
     output_path.parent.mkdir(parents=True, exist_ok=True)
     plt.figure(figsize=(10, 6))
     plt.plot(
@@ -106,7 +139,9 @@ def plot_learning_curve(output_path, dataset_name, learning_metrics):
     plt.close()
 
 
-def load_saved_training_result(run_dir):
+def load_saved_training_result(run_dir: Path) -> dict[str, Any] | None:
+    """Загружает сохранённые результаты fine-tuning, если запуск уже был завершён."""
+
     generation_bundle = load_saved_generation(run_dir, "fine_tuned_test")
     if generation_bundle is None:
         return None
@@ -129,7 +164,14 @@ def load_saved_training_result(run_dir):
     }
 
 
-def run_fine_tuning(state, experiment, splits, run_dir):
+def run_fine_tuning(
+    state: dict[str, Any],
+    experiment: dict[str, Any],
+    splits: Any,
+    run_dir: Path,
+) -> dict[str, Any]:
+    """Запускает fine-tuning, выбирает лучшую эпоху и оценивает модель на test."""
+
     config = state["config"]
     platform = state["platform"]
     dataset_spec = state["dataset_specs"][experiment["dataset_name"]]
@@ -208,7 +250,9 @@ def run_fine_tuning(state, experiment, splits, run_dir):
     best_val_loss = float("inf")
     best_epoch = None
 
-    def save_training_state(status):
+    def save_training_state(status: str) -> None:
+        """Сохраняет текущее состояние истории обучения после ключевых этапов."""
+
         save_json(
             history_file,
             {

@@ -1,24 +1,33 @@
+from __future__ import annotations
+
 import gc
 import json
 import shutil
 from pathlib import Path
+from typing import Any
 
 import numpy as np
 import torch
 from PIL import Image
 
 
-def sanitize_model_dir_name(model_name):
+def sanitize_model_dir_name(model_name: str) -> str:
+    """Преобразует идентификатор модели в безопасное имя директории."""
+
     return model_name.replace("/", "__").replace("-", "_")
 
 
-def limit_split(dataset, limit):
+def limit_split(dataset: Any, limit: int | None) -> Any:
+    """Ограничивает сплит указанным числом объектов."""
+
     if limit is None:
         return dataset
     return dataset.select(range(min(limit, len(dataset))))
 
 
-def clear_memory(device):
+def clear_memory(device: str) -> None:
+    """Освобождает память Python и кэши ускорителя после тяжёлых операций."""
+
     gc.collect()
     if device == "cuda":
         torch.cuda.empty_cache()
@@ -26,20 +35,26 @@ def clear_memory(device):
         torch.mps.empty_cache()
 
 
-def to_rgb(image):
+def to_rgb(image: Any) -> Image.Image:
+    """Приводит входное изображение к RGB-формату PIL."""
+
     if isinstance(image, Image.Image):
         return image.convert("RGB")
     raise TypeError(f"Unsupported image type: {type(image)}")
 
 
-def save_json(path, data):
+def save_json(path: str | Path, data: Any) -> None:
+    """Сохраняет JSON-файл в UTF-8 с читаемым форматированием."""
+
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=2)
 
 
-def load_json(path, default=None):
+def load_json(path: str | Path, default: Any = None) -> Any:
+    """Загружает JSON, а при отсутствии файла возвращает значение по умолчанию."""
+
     path = Path(path)
     if not path.exists():
         return default
@@ -47,14 +62,18 @@ def load_json(path, default=None):
         return json.load(file)
 
 
-def append_jsonl(path, record):
+def append_jsonl(path: str | Path, record: dict[str, Any]) -> None:
+    """Добавляет одну JSON-запись как строку в JSONL-файл."""
+
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("a", encoding="utf-8") as file:
         file.write(json.dumps(record, ensure_ascii=False) + "\n")
 
 
-def print_metrics(title, metrics):
+def print_metrics(title: str, metrics: dict[str, Any]) -> None:
+    """Печатает метрики в простом выровненном текстовом виде."""
+
     print(title)
     print("-" * 30)
     for key, value in metrics.items():
@@ -64,14 +83,18 @@ def print_metrics(title, metrics):
             print(f"{key:<24} {value}")
 
 
-def print_platform_summary(platform):
+def print_platform_summary(platform: dict[str, Any]) -> None:
+    """Печатает выбранное устройство и параметры runtime."""
+
     print("Конфигурация запуска")
     print("-" * 30)
     for key, value in platform.items():
         print(f"{key:<20} {value}")
 
 
-def prepare_run_dir_for_rerun(run_dir):
+def prepare_run_dir_for_rerun(run_dir: str | Path) -> None:
+    """Удаляет старые артефакты fine-tuning перед принудительным перезапуском."""
+
     run_dir = Path(run_dir)
     for target in [
         run_dir / "best_model",
@@ -86,4 +109,3 @@ def prepare_run_dir_for_rerun(run_dir):
         for file_path in run_dir.glob(pattern):
             if file_path.is_file():
                 file_path.unlink()
-

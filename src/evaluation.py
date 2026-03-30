@@ -1,4 +1,8 @@
+from __future__ import annotations
+
 from functools import lru_cache
+from pathlib import Path
+from typing import Any
 
 import evaluate
 import matplotlib.pyplot as plt
@@ -11,7 +15,9 @@ from .utils import clear_memory, load_json, save_json, to_rgb
 
 
 @lru_cache(maxsize=1)
-def load_metric_objects():
+def load_metric_objects() -> dict[str, Any]:
+    """Кэширует объекты метрик, чтобы не загружать их повторно."""
+
     return {
         "bleu": evaluate.load("bleu"),
         "rouge": evaluate.load("rouge"),
@@ -19,7 +25,9 @@ def load_metric_objects():
     }
 
 
-def compute_metrics(predictions, references):
+def compute_metrics(predictions: list[str], references: list[str]) -> dict[str, float]:
+    """Вычисляет лексические метрики и базовые статистики длины текстов."""
+
     metrics = load_metric_objects()
     bleu_score = metrics["bleu"].compute(predictions=predictions, references=references)["bleu"]
     rouge_scores = metrics["rouge"].compute(predictions=predictions, references=references)
@@ -34,7 +42,13 @@ def compute_metrics(predictions, references):
     }
 
 
-def load_model_and_processor(model_source, platform, model_dtype=None):
+def load_model_and_processor(
+    model_source: str | Path,
+    platform: dict[str, Any],
+    model_dtype: torch.dtype | None = None,
+) -> tuple[Blip2Processor, Blip2ForConditionalGeneration]:
+    """Загружает процессор и модель BLIP-2 с настройкой под выбранное устройство."""
+
     processor = Blip2Processor.from_pretrained(model_source)
     if model_dtype is None:
         model_dtype = platform["dtype"]
@@ -52,7 +66,15 @@ def load_model_and_processor(model_source, platform, model_dtype=None):
     return processor, model
 
 
-def generate_prediction(model, processor, image, platform, prompt):
+def generate_prediction(
+    model: Blip2ForConditionalGeneration,
+    processor: Blip2Processor,
+    image: Any,
+    platform: dict[str, Any],
+    prompt: str,
+) -> str:
+    """Генерирует одно текстовое заключение для одного изображения."""
+
     inputs = processor(images=image, text=prompt, return_tensors="pt").to(platform["device"])
     with torch.no_grad():
         output = model.generate(
@@ -69,7 +91,14 @@ def generate_prediction(model, processor, image, platform, prompt):
     return processor.decode(output[0], skip_special_tokens=True).strip()
 
 
-def plot_text_length_distribution(predictions, references, title, output_path):
+def plot_text_length_distribution(
+    predictions: list[str],
+    references: list[str],
+    title: str,
+    output_path: Path,
+) -> None:
+    """Строит и сохраняет распределения длин предсказаний и референсов."""
+
     output_path.parent.mkdir(parents=True, exist_ok=True)
     plt.figure(figsize=(10, 6))
     plt.hist([len(text.split()) for text in predictions], bins=20, alpha=0.6, label="Predictions")
@@ -85,17 +114,19 @@ def plot_text_length_distribution(predictions, references, title, output_path):
 
 
 def evaluate_split(
-    model,
-    processor,
-    split,
-    image_field,
-    target_field,
-    platform,
-    output_dir,
-    prefix,
-    prompt,
-    plot_output_path=None,
-):
+    model: Blip2ForConditionalGeneration,
+    processor: Blip2Processor,
+    split: Any,
+    image_field: str,
+    target_field: str,
+    platform: dict[str, Any],
+    output_dir: Path,
+    prefix: str,
+    prompt: str,
+    plot_output_path: Path | None = None,
+) -> tuple[dict[str, float], list[str], list[str]]:
+    """Запускает генерацию на сплите, сохраняет артефакты и возвращает метрики и тексты."""
+
     model.eval()
     predictions = []
     references = []
@@ -132,7 +163,13 @@ def evaluate_split(
     return metrics, predictions, references
 
 
-def load_saved_generation(output_dir, prefix, fallback_dirs=None):
+def load_saved_generation(
+    output_dir: Path,
+    prefix: str,
+    fallback_dirs: list[Path] | None = None,
+) -> tuple[dict[str, Any], list[str], list[str]] | None:
+    """Загружает ранее сохранённые предсказания и метрики для запуска генерации."""
+
     candidate_dirs = [output_dir]
     if fallback_dirs:
         candidate_dirs.extend(fallback_dirs)
@@ -152,7 +189,14 @@ def load_saved_generation(output_dir, prefix, fallback_dirs=None):
     return None
 
 
-def evaluate_saved_best_model(state, experiment, run_dir, get_experiment_splits):
+def evaluate_saved_best_model(
+    state: dict[str, Any],
+    experiment: dict[str, Any],
+    run_dir: Path,
+    get_experiment_splits: Any,
+) -> dict[str, Any]:
+    """Оценивает ранее сохранённую лучшую fine-tuned модель на test-сплите."""
+
     best_model_dir = run_dir / "best_model"
     if not best_model_dir.exists():
         raise FileNotFoundError(f"Saved model was not found in {best_model_dir}")

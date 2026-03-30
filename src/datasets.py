@@ -1,11 +1,16 @@
-import random
+from __future__ import annotations
 
-from datasets import DatasetDict, load_dataset
+import random
+from typing import Any
+
+from datasets import Dataset, DatasetDict, load_dataset
 
 from .utils import limit_split
 
 
-def load_dataset_splits(dataset_spec, config):
+def load_dataset_splits(dataset_spec: dict[str, Any], config: dict[str, Any]) -> DatasetDict:
+    """Загружает сплиты датасета и при необходимости строит train/validation/test."""
+
     raw = load_dataset(dataset_spec["path"], dataset_spec["config"])
 
     if "train" in raw and "validation" in raw and "test" in raw:
@@ -41,7 +46,9 @@ def load_dataset_splits(dataset_spec, config):
     return splits
 
 
-def is_no_acute_style(text):
+def is_no_acute_style(text: Any) -> bool:
+    """Проверяет, соответствует ли текст одному из типовых нормальных заключений."""
+
     text = str(text).strip().lower()
     patterns = [
         "no acute",
@@ -55,8 +62,14 @@ def is_no_acute_style(text):
     return any(pattern in text for pattern in patterns)
 
 
-def build_balanced_iu_splits(base_splits, dataset_spec, seed):
-    fixed_splits = {}
+def build_balanced_iu_splits(
+    base_splits: DatasetDict,
+    dataset_spec: dict[str, Any],
+    seed: int,
+) -> DatasetDict:
+    """Балансирует normal и abnormal случаи в train и validation для IU X-Ray."""
+
+    fixed_splits: dict[str, Dataset] = {}
     target_field = dataset_spec["target_field"]
 
     for split_name in ["train", "validation", "test"]:
@@ -90,4 +103,3 @@ def build_balanced_iu_splits(base_splits, dataset_spec, seed):
         print("-" * 40)
 
     return DatasetDict(fixed_splits)
-
