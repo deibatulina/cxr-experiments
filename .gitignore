@@ -25,3 +25,5 @@ experiments_light/results/**/last_model/
 # TensorBoard and training logs
 results/**/tensorboard/
 experiments_light/results/**/tensorboard/
+
+venv
