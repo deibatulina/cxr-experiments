@@ -92,6 +92,32 @@ def print_platform_summary(platform: dict[str, Any]) -> None:
         print(f"{key:<20} {value}")
 
 
+def print_torchinfo_summary(model: torch.nn.Module, title: str = "Сводка модели") -> None:
+    """Печатает краткую сводку модели через torchinfo, если пакет доступен."""
+
+    try:
+        from torchinfo import summary
+    except ImportError:
+        print("Сводка torchinfo пропущена: пакет torchinfo не установлен.")
+        return
+
+    print(title)
+    print("-" * 30)
+    try:
+        model_summary = summary(
+            model,
+            depth=2,
+            col_names=("num_params", "trainable"),
+            row_settings=("var_names",),
+            verbose=0,
+        )
+    except Exception as error:
+        print(f"Сводка torchinfo пропущена: {error}")
+        return
+
+    print(model_summary)
+
+
 def prepare_run_dir_for_rerun(run_dir: str | Path) -> None:
     """Удаляет старые артефакты fine-tuning перед принудительным перезапуском."""
 

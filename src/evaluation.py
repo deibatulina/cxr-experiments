@@ -11,7 +11,7 @@ import torch
 from tqdm.auto import tqdm
 from transformers import Blip2ForConditionalGeneration, Blip2Processor
 
-from .utils import clear_memory, load_json, save_json, to_rgb
+from .utils import clear_memory, load_json, print_torchinfo_summary, save_json, to_rgb
 
 
 @lru_cache(maxsize=1)
@@ -63,6 +63,7 @@ def load_model_and_processor(
     if platform["device"] == "mps":
         model.gradient_checkpointing_enable()
     model = model.to(platform["device"])
+    print_torchinfo_summary(model, title=f"Сводка модели через torchinfo: {model_source}")
     return processor, model
 
 
